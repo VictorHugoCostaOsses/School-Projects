@@ -1,0 +1,13 @@
+#!/bin/bash
+#Caloculo do Fatorial de um numero
+
+echo "Informe um numero:"
+read numero;
+i=1
+fat=1
+while [ $i -le $numero ]
+do
+fat=$(($fat *$i))
+i=$(($i+1))
+done
+echo "fatorial do $numero e $fat"

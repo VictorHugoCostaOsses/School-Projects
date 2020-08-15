@@ -1,0 +1,4 @@
+#!/bin/bash
+ls  -l  *.docx
+ls  -l  *.xlsx
+ls  -l  *.txt

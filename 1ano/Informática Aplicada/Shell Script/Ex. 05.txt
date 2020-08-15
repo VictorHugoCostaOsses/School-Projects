@@ -1,0 +1,8 @@
+#!/bin/bash
+ if test -d $1
+ then
+   echo "e um diretorio"
+ elif test -f $1
+ then
+     echo "e um arquivo"
+fi

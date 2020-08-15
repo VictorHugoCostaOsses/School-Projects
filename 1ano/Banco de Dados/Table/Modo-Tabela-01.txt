@@ -1,0 +1,13 @@
+área de tela 
+
+(4)     Digite suas notas
+(5)     10
+(5)     9
+(5)     8                             TABELA
+(7)     Sua média é 9
+
+área de memoria
+(2) nota1          10 (5)
+(2) nota2          9 (5)
+(2) nota3          8 (5) 
+(2) m              9 (6)

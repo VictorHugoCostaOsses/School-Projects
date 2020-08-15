@@ -1,0 +1,12 @@
+=SE(B3<=1000;B3*40%;B3*30%)
+SE FOR VERDADEIRO ANTES DO ;
+;= SE NÃO
+
+SE(condição;verdadeiro;falso)
+=SE(B2<=1000;B2*40%;B2*30%)
+
+B5=7,5 média de um aluno
+ 
+=SE(B5>=6,0;"Aprovado";"Reprovado")
+=SE(C10="Aprovado";"Parabens";"Ate o ano que vem")
+

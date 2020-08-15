@@ -1,0 +1,13 @@
+Área de tela
+
+(5) Quantas peças no mínimo o estoque deve ter
+(6) 20
+(7) Quantas peças no maximo o estoque deve ter
+(8) 100
+(10) O estoque médio é 60
+
+Área de memória
+
+(Q1)       20 (6)
+(Q2)       100 (8)
+(EM)       60 (9)

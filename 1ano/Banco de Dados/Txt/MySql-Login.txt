@@ -1,0 +1,308 @@
+entrar no putty 
+Host/server labserver.cotil.unicamp.br
+Port: 1609            No programa:3306
+
+login linux: infd120
+senha linux: infd120
+
+login: mysql -u 1indfd20 -p <pressione enter>
+senha: 1infd20
+
+login: mysql -u 1indfd36 -p <pressione enter>
+senha: 1infd36
+
+comando pra ver outros BD 
+show databases; (; ENTENDE QUE O PROGRAMA TA PRNT)
+
+criar BD
+create database NOME; ou create schema NOME;
+Ex CREATE TABLE teste(codigo INT, nome CHAR(15), email CHAR(25));
+
+Excluir BD
+drop database NOME; ou drop 
+
+Entrar no Bd
+use 1infd20
+
+Ver tabelas
+show tables;
+
+select * from teste; (Mosttra inf da tabela)
+
+show columns from NOME; (Mostra a tabela)
+ou 
+describe test;d
+
+alter table
+MEXE NA ESTRUTURA DA TABELA NÃO NO CONTEÚDO
+
+para preencher valores da tabela: insert into NOME values ('12345', null, '2000-08-20');
+OBS: Vai preencher o primeiro campo horizontalmente
+
+para monstrar os valores da tabela: "select * from NOME" * = Indica que que ver todos os dados
+
+Chave pri. composta
+fazer:
+PRIMARY KEY (a,c)); 
+
+Pra adicionar algo na tabela(estrutura n dados):
+alter table NOME add nascimento date;
+
+Pra mudar a posição de um registro:
+Ex; alter table TABELA add endereco(50) after CAMPO
+alter table TABELA add endereco(50) first
+
+Pra mudar o tipo do campo;
+alter table TABELA modify email CHAR(40);
+
+Pra mudar o nome do campo ou o tipo:
+alter table NOME change email e_mail char(30);
+
+Para excluir um campo:
+alter table NOME drop CAMPO;
+
+Tira  a(s) chave(s) primaria:
+alter table NOME drop primary key;
+
+Muda o nome da tabela;
+alter table NOME rename to fsadfasdf;
+
+
+MUDAR DADOS DA TABELA
+
+insert into cadastro values (NULL,'Elaine', elaine.brito@gmail.com, '45353535'); n da certo se colocar em só um campo.
+Só considera a Ordem! Pois n se está falando em qual campo adc os dados 
+
+insert into cadastro (codigo,nome) values (null,'Simone');
+Pode escolher os Campos (uau!)
+
+Select codigo, nome from cadastro;
+
+Select * from cadastro where  nome = ('Elaine');
+
+Select codigo, nome from teste where nome = ('Elaine');
+Vai mostrar só as colunas codigo e nome 
+
+update cadastro set nome = 'Elaine Brito' where nome ='Elaine'
+NÃO ESQUECER O WHERE, JAMAIS, NUNCA, CASO DE MORTE OU MORTE, WARNING! WHEREEEEEE! (SEMPRE USE A CHAV PRIMAR.)
+
+delete from cadastro where (telefone ='3444444444');
+TBM NÃO ESQUECER O WHERE, SE NÃO VC VAI PERDER SEU EMPREGO E VAI TER QUE SE PROSTITUIR POR X-BURGUER VEGETARIANOS
+
+select * from cadastro where (nome = 'Elaine') AND (telefone = '34444444');
+Usando o and e colando um registro a mais fica mais fácil encontrar na tabela o que eu quero.
+
+select * from cadastro where (nome = 'Elaine') OR (telefone = '34444444');
+
+select * from cadastro where (nome != 'Elaine');
+Vai mostrar tudo na tabela menos o registro com Elaine
+
+Normalmente a tabela é ordenada pela chave primaria 
+
+select * from cadastro order by nome asc;
+
+select * from cadastro order by nome desc;
+
+* - TODAS AS COLUNAS 
+
+Liberar where para os comandos : SET_SAFE_UPDATES = 0;
+
+select * from empregados where salario between 1700 and 2000;
+
+select * from empregados where cargo in ('programador','programadora');
+
+(expressão) [NOT] LIKE (valor)
+
+select * from empregados where nome like 'A%'; - Like (busca semelhantes)
+% qualquer conjunto de caractéres depois do % | _ 1 caractér.
+
+Verificar se um campo é nulo:
+select * from empregados where nome is null; ou  select * from empregados where nome is mod null;
+
+
+Exercícios: Uma função gera um resultado derivado de um calcúlo
+
+1.select avg(salario) from empregados; - Média dos salários , nessa função sempre passar um parametro, nesse caso, sálarios é o parametro da função avg.
+
+2.select avg(salario) from empregados where setor='3' and cargo = 'Programador';
+
+3.select * sum(salario) from empregados; - sum (SOMA)
+
+4.select max(salario) from empregados;
+
+5.select min(salario) from empregados;
+
+6.select count(*) from empregados where setor='3';  - count(*) Conta quantas linha na tabela atendem a essa condição. Posso color * ou a chave primária.
+
+7.select count(*) from empregados where salario>2000;
+
+8. select count(distinct setor) from empregados; Distinct setor - Pra n contar um setor igual dnv.
+
+9.select count(setor) from empregados; O padrão é o ALL. Conta todas as linhas.
+ 
+
+	EXERCICIOS
+
+1- select nome,vencimento,valor from duplicata;
+
+2- 
+select numero from duplicata where (banco = 'ITAU');
+
+3- select count(*) from duplicata where numero; Conta qualquer linha (todos os campos) OU select count(numero) from duplicata where banco = 'Itau'; 
+
+4- select numero,vencimento,valor,nome from duplicata where (vencimento <= '2017-12-31') and (vencimento>='2017-01-01');
+
+5- select numero,vencimento,valor,nome from duplicata where (banco<>'ITAU') and (banco<>'SANTANDER');
+
+   select numero,vencimento,valor,nome from duplicata where not (banco = 'ITAU') and (banco = 'SANTANDER');
+
+6- select sum(valor) from duplicata where (nome = 'PAPELARIA SILVA'); 
+
+ select valor from duplicata where (nome = 'PAPELARIA SILVA');
+
+7- delete from duplicata where (numero=770710);
+
+8- select * from duplicata order by nome;
+
+9- select nome,banco,valor,vencimento from duplicata order by vencimento;
+
+10- SET SQL_SAFE_UPDATES = 0; 
+
+
+  update duplicata set banco='SANTANDER' where banco='BANCO DO BRASIL';
+
+11- select distinct nome from duplicata where (banco =  'BRADESCO'); Mostra os registros diferentes que possuem banco = Bradesco , se não ele mostra repetidamente
+
+12-  select sum(valor) from duplicata where vencimento between  '2016-01-01' and '2016-12-31';
+
+13- select sum(valor) from duplicata where vencimento between  '2016-08-01' and '2016-08-30';
+
+14-
+
+15- update duplicata  set valor = valor*1.15 where vencimento between  '2017-01-01' and '2017-05-31';
+
+16- update duplicata  set valor = valor*1.05 where vencimento between  '2017-01-01' and '2017-05-31' and (nome = 'LER E SABER');
+
+17 - select avg(valor) from duplicata where (vencimento >= '2016-01-01'  && vencimento <= '2016-12-31');
+
+
+18 - select nome from duplicata where (valor > 10000.00);
+
+19 - select sum(valor) from duplicata where (banco = 'SANTANDER');
+
+20 - select distinct nome from duplicata where (banco = 'BRADESCO') OR (banco = 'ITAU'); Se já listou .... não listar novamente (distinct)
+
+DICA: Usar sempre in no subquery
+ 
+Delete é exclusão de linhas e não campos 
+Exercício 3:
+
+Tabela Plano : create table plano(plano CHAR(2) NOT NULL PRIMARY KEY,descrição CHAR(30),valor DECIMAL(10,2));
+
+
+
+
+
+Exercicios:
+
+1 - SELECT distinct cargo,setor from empregados where cargo IN (select cargo from empregados where codigo=25);
+
+2- select nome,admissao,cargo from empregados where admissao in(select min(admissao) from empregados);
+
+3- select nome,admissao from empregados where salario > (select avg(salario) from empregados where setor = 3); 
+
+
+Chave Estrangeira:
+
+Alter table conta add foreign key(codcli) references cliente(codigo);
+
+select conta.numero,cliente.nome from cliente,conta where cliente.codigo=conta.codcli;
+
+Sempre que eu utilzar mais de uma tabela sempre colocar WHERE (chave primaria da tabela cliente é igual a chave estrangeira da tabela conta :  cliente.codigo=conta.codcli)
+
+Select cliente.nome, conta.numero,conta.valor from cliente,conta where cliente.codigo=conta.codcli order by cliente.nome; 
+(order by - sempre no final)
+
+CONTAR : select count(*) from conta;
+          
+         select codcli ,count(*) from conta group by codcli; (ver dados e funções juntos);
+
+ SELECT cliente.Nome, COUNT(*)
+FROM cliente, conta
+WHERE cliente.codigo = conta.codcli
+GROUP BY cliente.Nome;   group by (sempre por ultimo)
+
+Média
+SELECT cliente.nome, avg(conta.valor) FROM
+cliente,conta where cliente.codigo=conta.codcli GROUP BY conta.codcli;
+
+SELECT codcli, avg(valor) FROM conta
+GROUP BY codcli having   ---> quando for colocar uma função depois do BROUP BY utilizar having e função...
+avg(valor)>2000;
+
+ 
+SELECT cliente.nome, avg(conta.valor) from cliente,conta where cliente.codigo=conta.codcli having avg(valor)>300; Condição usar HAVING - Se refere a um valor calculado
+
+Rollup: Mostra um TOTAL de alguma função.
+
+
+Select codcli,sum(valor)as conta from
+conta group by codcli with
+rollup;
+
+
+EXERCÍCIOS:
+
+1 - alter table plano add foreign key (codAssociado) references associado(codigo);
+
+2 - select nome,plano from associado;
+
+3 - select count(*) from associado where plano = 'B1';
+
+4 - select  associado.nome,associado.plano,plano.valor from associado,plano where plano.numero=associado.plano;
+
+5 - select nome from associado where Cidade = 'COTIA' or 'DIADEMA';
+
+
+6 - 
+select associado.nome,associado.plano,plano.valor from associado,plano where associado.plano=plano.numero and associado.Cidade ='BARUERI' and associado.plano ='M1';
+
+7 - select associado.nome,associado.plano,plano.valor from associado,plano where associado.plano=plano.numero and Cidade ='SÃO PAULO';
+
+8 - select * from associado,plano where associado.plano=plano.numero and associado.nome like '%SILVA%';
+
+9 - update plano set valor = valor*1.05 where numero like 'B%';
+
+
+10 - SET SQL_SAFE_UPDATES = 0;
+     Update associado set plano = 'E3' where nome = 'PEDRO JOSE DE OLIVEIRA';
+
+11- select count(plano) from associado where plano = 'E3';
+
+12- select associado.nome,plano.valor from associado, plano where associado.plano=plano.numero and plano = 'B1' or plano = 'E1' or plano = 'M1';
+
+13- Sekect nome from associado where plano like 'E%';
+
+14 - select nome,plano from associado where  plano like 'M%' or plano like 'E%'; 
+
+15 - delete from associado where Cidade = 'SANTO ANDRE';
+
+16- select associado.nome,associado.plano,plano.valor,associado.Cidade from associado,plano where associado.plano=plano.numero and associado.Cidade = 'SÃO PAULO' and associado.plano in ('M2','M3') order by associado.nome;
+
+17  Select * from assocaido.plano where associado.plano=plano.numero order by associado.plano;
+
+18 - Select * from associado,plano where associado.ano=plano.numero order by associado .plano, associado.nome desc;
+
+19 - Select * from associado where plano not like 'M%';
+
+20 - select associado.nome,plano.descrição from associado,plano where associado.plano=plano.numero order by associado.nome;    
+
+21 - select * from associado,plano where associado.plano=plano.numero and plano.valor between  300 and 500;
+
+22 - select associado.nome,associado.plano,plano.descrição,plano.valor from associado,plano where associado.plano=plano.numero and associado.nome like '%AMARAL%';
+ 
+23 - select * from associado where Cidade = 'DIADEMA';
+
+24 - Update ano set valor = valor * 1.06 where numero like 'M%';
+
+25 - select * from associado where CEP like '09%'; 

@@ -1,0 +1,13 @@
+ #!/bin/bash
+# Declaracao de uma funcao em ShellScript
+function Boas Vindas(){
+  echo -e "\n|nSeja Bem vindo $1 \n\n"
+}
+ echo -n "Digite seu nome:"
+read _NOME
+# A variavel _NOME recebera o que foi figitado pelo usuario
+
+BoasVindas "$_NOME"
+#Aqui passsamos o conteudo da variavel _NOME como o 1º
+#parametro para a funcao BoasVindas()
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+#Este programa mostra os drivers do seu hardware
+system_info=`df -h` # Também podeira ser 
+
+system_info=$(df -h)
+echo "$system_info"
+sleep 60

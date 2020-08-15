@@ -1,0 +1,31 @@
+#!/bin/bash
+#Este programa utiliza o comando case esac
+#e o comando while do done
+#while(1) significa "sempre entre no loop". Ou seja, to 
+while((1))
+do
+  echo "Selecione uma opcao:"
+  echo "1 - Exibir a palavra amarelo"
+  echo "2 - Exibir o resultado da multiplicacao de 10*1
+  echo "3 - Exibir os arquivos txt"
+  echo "4 - Para sair"
+read opcao;
+ case $opcao in
+  1)
+     echo -e '\e[33;1m amarelo \e[m'
+     echo -e '\033[33;1m amarelo \033[m'
+     echo
+     ;;
+  2)
+   result=$((10*10))
+   echo "multiplicacao de 10*10 = $result"
+   echo
+   ;;
+  3)
+   echo *.txt
+   echo
+   ;;
+  4)
+   exit
+   ;;
+esac

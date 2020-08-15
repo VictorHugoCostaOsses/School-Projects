@@ -1,0 +1,28 @@
+CHAVES PRIMÁRIAS
+
+ Alter table matricula add foreign key(codCurso) references curso(codigo);
+ alter table matricula add foreign key (codAluno) references aluno(RA);
+
+1- select aluno.nome,aluno.RA,curso.nome from aluno,matricula,curso where (aluno.RA=matricula.codAluno) and (matricula.codCurso=curso.codigo);
+
+2- Select a.nome,a.ra,c.nome from aluno a,matricula m,curso c where (a.RA =m.codAluno) and (m.codCurso=c.codigo) order by nome; 
+
+3- Select curso.nome,count(matricula.RA) as 'número de alunos' from curso left join matricula on (curso.codigo=matricula.CodCurso)
+group by matricula.CodCurso;
+
+4-
+
+5-Select curso.nome,sum(matricula.valor) from curso inner join matricula on (curso.codigo=matricula.codCurso) group by
+matricula.codcurso;
+
+6- select curso.nome,sum(matricula.valor) from curso inner join matricula on (curso.codigo=matricula.CodCurso) group by matricula.CodCurso with rollup;  no final mostra um valor TOTAL, nesse caso, da soma. 
+
+7- Select round(avg(valor),2) as 'valor médio' from matricula;     - 'round(avg(valor),2)' Oq eu quero apresentar + quantas casas depois da vírgula.    
+
+8 - Select curso.nome ROUND(avg(matricula.valor),2) as 'valor médio' from matricula inner join...;
+
+9 -  Uso do having. Quando temos uma condição no group by asseguir deve-se usar um having e a função necessária
+
+10- Select
+
+15  - Select nome from curso where inicio > current-date; (data atual) 

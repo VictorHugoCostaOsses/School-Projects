@@ -1,0 +1,28 @@
+área de tela
+
+(4) Digite o raio da esfera
+(5) 7
+(8) A area é 615,44 o volume é 1436,0266667
+
+área de memoria
+
+(2) R             7            (5)
+(2) area          615,44       (6)
+(2) volume        1436,0266667 (7)
+
+-
+Área de tela
+
+(5) Quantas peças no mínimo o estoque deve ter
+(6) 20
+(7) Quantas peças no maximo o estoque deve ter
+(8) 100
+(10) O estoque médio é 60
+
+Área de memória
+
+(Q1)       20 (6)
+(Q2)       100 (8)
+(EM)       60 (9)
+
+

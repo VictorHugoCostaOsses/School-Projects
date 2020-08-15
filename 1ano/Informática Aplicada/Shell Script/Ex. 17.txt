@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Digite o valor do litro em gasolina"
+read litro
+echo "Digite o valor do pagamento"
+read pagamento
+quantidade=$((pagamento/$litro))
+echo "O cliente colocou $quantidade litros"
+sleep 60 

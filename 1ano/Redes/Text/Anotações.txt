@@ -1,0 +1,46 @@
+P.de comunicação - Cai até a classe C na prova
+
+
+
+           256    128 64  32  16 8  4  2  1         Uma letra -  8 bits - 1 byte
+                                                
+               
+
+12base 10         0   0   0   0  1  1  0  0  base 2   -- 8  + 4
+
+31 base 10        0   0   0   1  1  1  1  1  base 2   -- 16 + 8 + 4 + 2 + 1
+
+255 base 10       1   1   1   1  1  1  1  1  base 2   -- 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
+
+
+Classe A - 1 - 127       128 64  32  16 8  4  2  1 
+                          0  1   1   1  1  1  1  1 = 127 não pode passar
+      
+
+Classe B - 128 - 191     128 64  32  16 8  4  2  1 
+                          1   0  1   1  1  1  1  1 = 191 não pode passar
+
+
+
+Classe C - 192 - 223     128 64  32  16 8  4  2  1  
+                          1  1   0   1  1  1  1  1 = 223 não pode passar
+
+
+1 Octeto -  define qual a classe(rede);
+
+Classe A
+
+NET ID - Identificação da rede (IGUAL PRA TODOS OS PCS DO AMBIENTE)- 
+
+ROST ID - Varia de acordo com a maquina;
+
+Classe B - Usa-se 2 octetos 2 primeiros fixos 
+
+Classe C - Usa-se 2 octetos 3 primeiros numeros fixos
+ 
+
+
+
+
+
+

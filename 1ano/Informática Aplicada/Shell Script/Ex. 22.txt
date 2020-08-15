@@ -1,0 +1,11 @@
+#!/bin/bash
+echo " Digite a primeira nota"
+read n1
+echo " Digite a segunda nota"
+read n2
+echo " Digite a terceira nota"
+read n3
+media=$(((n1*1+n2*2+n3*3)/6))
+echo "A media ponderada do aluno e $media" 
+
+
