@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<meta charset="utf-8">
+
+<body>
+	<h1>Formulário - Cadastro de Funcionário</h1>
+	
+<form action="https://www.google.com/" method="post" target="blank">
+
+<form >
+	<label for="nome">Nome:<br></label>
+	<input type="text" name="Nome" id="nome" size="50" maxlength="40" value="Nome" minlength="2" placeholder="ISCRIVI SEU NOMI" required  autofocus=""> <!--label serve para vc clicar no NOME  e dai ele ir direto pra escrita sla o que esse tawara que dizer, o id tem que ser igual ao for -->
+	
+	<br><br>
+
+	<label for="idade"><a href="Pao.html"> Idade:</a><br></label> 
+	<input type="number" name="Idade" size="3" id="idade" max="120" min="50" placeholder="Idade"  step="2" value="18">
+
+	<br><br>
+
+	Senha:<br>
+	<input type="password" name="senha" placeholder="senha" required maxlength="5" minlength="3" >
+
+	<br><br>
+
+    Cargo:<br>
+    <input type="text" name="Cargo" value="Professora" spellcheck="false" readonly>
+    <!--readonly é um comando onde você não pode alterar o valor, e ele é lido quando é enviado para outro software-->
+
+    <br><br>
+
+	Cargo:<br>  
+    <input type="text" name="Cargo" value="Professora" disabled>
+    <!--disabled é um comando onde você não pode alterar o valor, e ele não é lido quando é enviado para outro software-->
+
+	<br><br>
+
+	Cor preferida (não que seje importante, mas coloca :D):<br>
+	<input type="color" name="Colorenenpanol" value="#ff6453">
+
+	<br><br>
+
+	Sexo:<br>
+	<label for="masc">M</label>
+	<input type="radio" name="sexo" id="masc" value="M" checked>
+	
+	<label for="feminino">F</label>
+	<input type="radio" name="sexo" id="feminino" value="F">
+	<!--radio: fica em forma de bola-->	
+
+	<br><br>
+
+	Períodos de aula:<br>
+	<input type="checkbox" name="manhã" id="manha" checked>  <!--  checked deixa marcado (padrão) -->
+	<label for="manha">manha</label>
+	<input type="checkbox" name="tarde" id="Tarde" > 
+	<label for="Tarde">Tarde</label>
+	<input type="checkbox" name="noite" id="Noite">
+	<label for="Noite" >Noite</label> 
+ <!--checkbox: fica em forma de quadrado-->	
+
+ <br><br>
+
+ <fieldset>
+
+ 	<legend align="center" >Datas</legend>
+ 	<input type="date" name="Nascimento">
+
+ 	<br><br>
+
+ 	Data e hora dp cadastro - local:<br>
+ 	<input type="datetime-local" name="dataHoraCad">
+
+ 	<br><br>
+
+ 	Hora do cadastro:<br>
+ 	<input type="time" name="Cadastrohora">
+
+ 	<br><br>
+
+ 	Mês do aniversário:<br>
+ 	<input type="month" name="mesAniv">
+
+ 	<br><br>
+ 	
+	
+ 	Semana do nascimento:<br>
+ 	<input type="week" name="semanaNasc">
+
+ </fieldset>
+
+   Curso:<br>
+ 
+  <select name="curso">
+  	<option></option> <!-- Deixa marcado em branco -->
+  	<option value="informatica">informática</option>
+  	<option value="edificacoes">edificacoes</option>
+  	<option value="geodesia">geomatica</option>
+  	<option value="mecania" selected>mecanica</option>
+  	<option value="enfermagem">enfermagem</option>
+
+  	<option value="qualidade">qualidade</option>
+ </select>
+
+<br><br>
+
+Áreas preferidas (até 2): <br>
+<select name="areas" size="5" multiple> <!-- O size mostra 3 campos (nesse caso). O multiple permite escolha varios campos apertando ctrl -->
+	<option value="Exatas">Exatas</option>
+	<option value="Humanas">Humanas</option>
+	<option value="Biológicas">Biológicas</option>
+	<option value="x">x</option>
+	<option value="y">y</option>
+</select>
+
+<br><br>
+
+Veículo que utilizará no campus:<br>
+
+<select id="veiculo" name="carrinho">
+	<optgroup label="Carros">
+		<option value="GM">GM</option>
+		<option value="VW">VW</option>
+		<option value="Renault">Renault</option>	
+	</optgroup>
+
+	<optgroup label="Motos" name="motinha">
+		<option value="Honda">Honda</option>
+		<option value="Yahama">Yamaha</option>
+		<option value="Suzuki">Suzuki</option>
+	</optgroup>
+</select>
+
+<br><br>
+
+Conhecimento:<br>
+
+<input name="conhecimento" list="lista-conhecimento">
+
+<datalist id="lista-conhecimento" name="conheciment">
+
+<option value="HTML5">HTML5</option>
+<option value="HTML4">HTML4</option>
+<option value="CSS3">CSS3</option> <input type="m" name="">
+<option value="PHP">PHP</option>
+</datalist>
+
+<br><br>
+Capacitação:<br>
+<input type="range" min="0" max="10" name="capacitac">
+
+<br><br>
+
+Foto:<br>
+<input type="file" name="foto" accept=".txt" name="foto">
+
+<br><br>
+
+
+Observações:<br>
+<textarea rows="5" cols="50" name="obs">   
+</textarea>
+                                    <!-- rows:Tanto de linhas cols:Tanto de caracteres que cabem em uma linha -->
+<br><br>
+E-mail:<br>
+<input type="email" placeholder="e-mail" size="49" name="gmail">
+
+<br><br>
+Buscar:<br>
+<input type="search" placeholder="termo da pesquisa" name="google">
+
+<br><br>
+Site:<br>
+<input type="url" placeholder="site" name="xvideos">
+
+<br><br>
+
+<input type="button" onclick="alert('Oi!');" value="Botão"  >
+
+<input type="reset" value="Limpar">
+
+<input type="submit" name="Enviar">
+
+<button type="reset" >Botãoo </button>
+<br><br>
+<br><br>
+  
+ <fieldset  >
+ 	<legend><h2><ins>Animes favoritos e data</ins></h2></legend>
+ 	<b>Escolha seu anime favorito</b>:<br>
+ 	<select >
+ 		<option value="One Piece">One Piece</option>
+ 		<option value="Naruto" >Naruto</option>
+ 		<option value="Dragon Ball ">Dragon Ball Z</option>
+ 	</select>
+ 	<br><br>
+ 	<b>Data de Nascimento</b>:<br>
+ 	<input type="date" name="Data">
+
+ </fieldset>
+</form>
+
+
+</body>
+</html>
