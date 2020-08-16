@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1552349954 source:f:\2° ano\ed\projeto2\funcoes\funcoes.c
+	<math.h>
+	"FUNCOES.H"
+
+1552346762 f:\2° ano\ed\projeto2\funcoes\funcoes.h
+
+1552349954 source:d:\2° ano\ed\projeto2\funcoes\funcoes.c
+	<math.h>
+	"FUNCOES.H"
+
+1552346762 d:\2° ano\ed\projeto2\funcoes\funcoes.h
+
+1554768880 source:f:\2° ano\ed\projetos\projeto2\funcoes\funcoes.c
+	<math.h>
+	"FUNCOES.H"
+
+1554768888 f:\2° ano\ed\projetos\projeto2\funcoes\funcoes.h
+
+1554768662 source:f:\2° ano\ed\projetos\projeto2\funcoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FUNCOES.H"
+	<locale.h>
+
+1554768880 source:d:\2° ano\coisas\ed\projetos\projeto2\funcoes\funcoes.c
+	<math.h>
+	"FUNCOES.H"
+
+1554768888 d:\2° ano\coisas\ed\projetos\projeto2\funcoes\funcoes.h
+
+1581278086 source:d:\2° ano\coisas\ed\projetos\projeto2\funcoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FUNCOES.H"
+	<locale.h>
+

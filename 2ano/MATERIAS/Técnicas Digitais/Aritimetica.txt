@@ -1,0 +1,45 @@
+ADIÇÃO BINÁRIA:
+1  0  1        5
+             +
+0  0  1        1
+
+--------------------
+Resultado = 1  1  1
+
+
+
+1  0  1       5
+             +  
+0  1  1       3
+------------------
+  Resultado = 1 0  0 0
+
+
+1  1  1     7
+           +
+0  1  1     3
+----------------
+ Resultado =   1 0 1 0 base 2 (binario)  = 10 na base 10  
+
+SUBTRAÇÃO BINÁRIA:
+
+1 R.  0 - 0 = 0
+2 R.  0 - 1 = 1 (empresta1)
+3 R.  1 - 0 = 0
+4 R.  1-1 = 0 
+
+obs: colocar na ordem da onta
+
+1  0    2
+       -
+0  1    1
+
+ 0 - 1 = 1  (Vai pra frente)
+ 1-  0 = 1
+ 1 - 1 = 0   
+
+1 0 0 0    8
+            -
+0 1 1 1    7
+-----------------
+0  0  0    1 

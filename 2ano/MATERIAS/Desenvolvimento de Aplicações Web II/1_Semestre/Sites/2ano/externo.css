@@ -1,0 +1,333 @@
+/*
+GERAL
+*/
+
+body
+{
+	font-family: Roboto, sans-serif;
+	color: #4d4d4d;
+	margin: 0px;
+}
+
+h1,h2,h3
+{
+	margin : 0;
+	font-family: Georgia, sans-serif;
+	font-weight: 700px;
+}
+
+.botao
+{
+	color: #f1f1f1
+	padding: 10px 30px;
+	background-color: #8f3faf;
+	font-size: 0.9em; 
+	border-radius: 3px;
+}
+/*
+NAVEGAÇÃO
+*/
+
+nav
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;
+}
+
+nav > a /* vai selecionar tudo que é "filho" da div nav */
+{
+text-decoration: none;
+color: #f1f1f1;
+font-weight: 700;
+font-size: 28px;
+font-family: Pacifico;
+}
+
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%; 
+}
+
+nav ul li
+{
+	text-align: center;
+	width: 60%;
+}
+
+nav ul li a
+{
+	display: inline-block; /* Transforma cada negócio do menu em um bloco, daí eu posso manipular usando o padding por exemplo*/
+	padding: 10px 0;
+	width: 30%;
+	text-decoration: none;
+	color: #f1f1f1;
+
+}
+
+/* 
+CABEÇALHO
+*/
+
+
+
+header
+{
+	background-image: url('./img/alguma.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#f1f1f1;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header a
+{
+	color: #f1f1f1;
+	text-decoration: none;
+	padding: 8px;
+}
+
+header p
+{
+margin-bottom: 2em; /* *2em medidade relativa ao tamanho do font-size do elemento pai (que nesse caso é o header), mas como ele não 
+tem o tamanho definido, a fonte relativa que vai ser usada é a do navegadores, que geralmente é 16px. OBS: 2em = 32px ou seja 2x16;*/
+}
+
+/* 
+SOBRE
+*/
+
+#sobre
+{
+	display: flex; /* container flex*/
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px 10px 25px;
+	background-color: #8f2faf;
+	color: #f1f1f1; 
+}
+
+#sobre p
+{
+	margin-bottom: 2.5em;
+	max-width: 2000px;
+}
+
+#sobre a
+{
+	text-decoration: none;
+	padding: 8px;
+}
+
+#sobre .botao
+{
+	background-color: #f1f1f1;
+	color: #4d4d4d;
+}
+
+/* 
+SERVIÇOS
+*/
+
+#servicos
+{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#servicos div
+{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+margin-top: 30px;
+}
+
+
+/*
+PORTIFOLIO
+*/
+
+#portifolio
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+#portifolio h2
+{
+	margin-bottom:  20px;
+}
+
+#portifolio img
+{
+	width: 100%;
+}
+
+/* 
+CONTATO
+*/
+
+#contato
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+#contato img
+{
+	width: 100%;
+}
+
+/* 
+FOOTER
+*/
+
+footer
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+}
+
+/* 
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px) 
+{
+
+/* 
+ NAVEGACAO
+*/
+nav
+{
+	flex-direction: row; /* linha*/
+	justify-content: space-around; /*justificar o conteúdo com espaço ao redor */
+}
+
+nav ul
+{
+	flex-direction: row;
+	width: 70%;
+}
+/*
+CABEÇALHO
+*/
+
+header
+{
+	height: 600px;
+	height: 60vh; /* *view port height - 60% da altura da janela*/
+	justify-content: center;
+ }
+
+/* SOBRE*/
+#sobre
+{
+	height: 250px; /* caso o navegador não consiga ler aquela media relativa (vh)*/
+	height: 25vh;
+	justify-content: center;
+
+}
+/*
+SERVIÇOS
+*/
+
+#servicos
+{
+	flex-direction: row;
+    flex-wrap: wrap; /* Quebre para outra linha caso o tamanho seja maior*/
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto; /* 0 pra cima e pra baixo e automatico para esquerda e direita*/
+}
+
+
+#servicos h2
+{
+	text-align: center;
+	width:100%;
+}
+#servicos p
+{
+	width: 72.5%;
+	text-align: center;
+}
+#servicos div
+{
+	flex-grow: 1; /* cresce proporcionalmente aos outros elementos ao redors*/
+	flex-basis: 150px; /* largura máxima dos elementos*/
+    padding: 0 10px; 
+}
+
+/* PORTFOLIO*/
+
+#portifolio
+{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#portifolio h2
+{
+
+	width: 100%;
+	text-align: center;
+}
+
+#portifolio div
+{
+	margin: -2px auto;
+	width: 33.3333333%;
+}
+
+#portifolio img
+{
+	width: 100%;
+}
+
+/* 
+CONTATO
+*/
+#contato
+{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+#contato h2
+{
+	width: 100%;
+}
+#contato p
+{
+	width: 100%;
+
+}
+
+}

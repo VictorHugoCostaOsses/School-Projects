@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568138532 source:c:\users\aluno\downloads\fila.c
+	<stdlib.h>
+	"C:/Users/aluno/Downloads/fila.h"
+	<stdio.h>
+
+1568137608 c:\users\aluno\downloads\fila.h
+
+1568139732 source:d:\2° ano\fila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"C:/Users/aluno/Downloads/fila.h"
+

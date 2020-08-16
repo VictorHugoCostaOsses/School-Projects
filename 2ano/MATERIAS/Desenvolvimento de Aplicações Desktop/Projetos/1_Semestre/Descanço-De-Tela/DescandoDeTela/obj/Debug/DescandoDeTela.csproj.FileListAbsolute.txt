@@ -1,0 +1,20 @@
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.exe.config
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.exe
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.pdb
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csprojAssemblyReference.cache
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.Form1.resources
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.Properties.Resources.resources
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.exe
+C:\Users\aluno\Desktop\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.pdb
+D:\2° ano\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.exe.config
+D:\2° ano\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.exe
+D:\2° ano\DescandoDeTela\DescandoDeTela\bin\Debug\DescandoDeTela.pdb
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csprojAssemblyReference.cache
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.Form1.resources
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.Properties.Resources.resources
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csproj.GenerateResource.cache
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.csproj.CoreCompileInputs.cache
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.exe
+D:\2° ano\DescandoDeTela\DescandoDeTela\obj\Debug\DescandoDeTela.pdb

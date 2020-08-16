@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1552415504 source:c:\users\aluno\documents\funcoes2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+	<locale.h>
+
+1552414776 c:\users\aluno\documents\funcoes2\funcoes.h
+
+1552415566 source:c:\users\aluno\documents\funcoes2\funcoes.c
+
+1552415568 source:d:\2° ano\funcoes2\funcoes.c
+
+1552415652 source:d:\2° ano\funcoes2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+	<locale.h>
+
+1552415706 d:\2° ano\funcoes2\funcoes.h
+
+1552415568 source:f:\2° ano\ed\projetos\funcoes2\funcoes.c
+
+1552415652 source:f:\2° ano\ed\projetos\funcoes2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+	<locale.h>
+
+1552415706 f:\2° ano\ed\projetos\funcoes2\funcoes.h
+

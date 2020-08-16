@@ -1,0 +1,38 @@
+h3,h2{
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+    padding:0px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 0;
+    border: 1px solid gray;
+    outline: none;
+}
+
+verde{
+    color: green;
+    font-size: 20px;
+}
+
+vermelho{
+    color: red;
+    font-size: 20px;
+}

@@ -1,0 +1,19 @@
+C:\Users\aluno\source\repos\Semaforo\Semaforo\bin\Debug\Semaforo.exe.config
+C:\Users\aluno\source\repos\Semaforo\Semaforo\bin\Debug\Semaforo.exe
+C:\Users\aluno\source\repos\Semaforo\Semaforo\bin\Debug\Semaforo.pdb
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.Form1.resources
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.Properties.Resources.resources
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.exe
+C:\Users\aluno\source\repos\Semaforo\Semaforo\obj\Debug\Semaforo.pdb
+E:\2° ano\Semaforo\Semaforo\bin\Debug\Semaforo.exe.config
+E:\2° ano\Semaforo\Semaforo\bin\Debug\Semaforo.exe
+E:\2° ano\Semaforo\Semaforo\bin\Debug\Semaforo.pdb
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.csprojAssemblyReference.cache
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.Form1.resources
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.Properties.Resources.resources
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.csproj.GenerateResource.cache
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.csproj.CoreCompileInputs.cache
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.exe
+E:\2° ano\Semaforo\Semaforo\obj\Debug\Semaforo.pdb

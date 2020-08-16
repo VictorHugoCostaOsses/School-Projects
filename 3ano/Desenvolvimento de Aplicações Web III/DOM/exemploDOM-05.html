@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+      
+        </style>
+</head>
+<body>
+
+    
+
+
+Capacitacao:<br>
+<input type="range" id="capacitacao" min="0" max="10" onchange="exibirValor()">
+<span id="valor">0</span>
+
+<br><br>
+Nome:
+<input type="text" id="nome" onkeyup="contarCaracteres()">
+<span id="numeroCaracteres">0</span>  Caracteres.
+
+<br><br>
+Cor Preferida
+<input type="color" name="color" id="cor" onchange="mudarCor()"><br><br>
+<span id="text">Texto</span>
+<div id="corFundo" style="border: 1px solid black; width: 100px;height: 100px;"></div>
+<br>
+<input type="text" id="place" placeholder="#000000">
+
+
+<script>
+var rangeInput = document.getElementById("capacitacao");
+var spanRange =  document.getElementById("valor");
+
+var inputNome = document.querySelector("input#nome");
+var spanNome = document.querySelector("span#numeroCaracteres");
+
+var corFundo = document.querySelector("div#corFundo");
+var text = document.querySelector("span#text");
+
+var placeHolder = document.querySelector("input::placeholder");
+
+
+    function exibirValor(){
+    spanRange.innerHTML = rangeInput.value;
+    }
+
+    function contarCaracteres(){
+    spanNome.innerHTML =  inputNome.value.length;;
+    }
+
+    function mudarCor(){
+    var color = document.querySelector("input#cor").value;
+    corFundo.style.background = color;
+    text.style.color = color;
+    placeHolder.style.color = color;
+    }
+
+</script>
+</body>
+
+
+</html>

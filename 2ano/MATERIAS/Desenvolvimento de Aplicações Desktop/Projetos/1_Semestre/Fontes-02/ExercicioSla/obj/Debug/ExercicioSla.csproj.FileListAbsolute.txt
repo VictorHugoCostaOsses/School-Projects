@@ -1,0 +1,20 @@
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.exe.config
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.exe
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.pdb
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csprojAssemblyReference.cache
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.Form1.resources
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.Properties.Resources.resources
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.exe
+C:\Users\aluno\Desktop\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.pdb
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.exe.config
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.exe
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\bin\Debug\ExercicioSla.pdb
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.Form1.resources
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.exe
+F:\2° ano\DAD\PROJETOS\ExercicioSla\ExercicioSla\obj\Debug\ExercicioSla.pdb

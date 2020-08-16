@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TimeOut com Botão</title>
+
+	<script type="text/javascript">
+		function acao() {
+			document.getElementById("msg").innerHTML = "Executando...";
+		}
+		function cancel() {
+			document.getElementById("msg").innerHTML = "";
+		}
+
+		setInterval(cancel, 4000); //depois de aparecer o Executando por 4s, limpa a tela
+	</script>
+</head>
+<body>
+	<button onclick="acao();">Botão de ação</button>
+	<div id="msg"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+body{background-color: #fffff2;}
+div{margin-left: 10px;}
+h1{color: darkblue;margin-bottom: 10px;}
+form#media span{font-size: 22px;}
+
+input.text{
+height: 22px;
+width:200px;}
+
+input.verificar{
+height: 30px;
+width: 100px;}
+
+x{color: green;}
+y{color: orange;}
+z{color: red;}

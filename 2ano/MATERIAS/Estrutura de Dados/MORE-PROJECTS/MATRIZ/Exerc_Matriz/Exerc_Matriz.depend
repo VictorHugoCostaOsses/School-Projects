@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1557703426 source:f:\2° ano\exerc_matriz\funcoes.c
+	<stdio.h>
+
+1557853278 source:d:\2° ano\exerc_matriz\funcoes.c
+	<stdio.h>
+
+1557942962 source:d:\2° ano\ed\exerc_matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+	<stdlib.h>
+
+1557942838 d:\2° ano\ed\exerc_matriz\funcoes.h
+
+1557943048 source:d:\2° ano\ed\exerc_matriz\funcoes.c
+	<stdio.h>
+

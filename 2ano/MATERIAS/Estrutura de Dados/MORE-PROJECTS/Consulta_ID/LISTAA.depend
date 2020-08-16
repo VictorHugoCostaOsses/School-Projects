@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1565115582 source:d:\2° ano\ed\listaa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1565115610 d:\2° ano\ed\listaa\lista.h
+
+1565115662 source:d:\2° ano\ed\listaa\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+

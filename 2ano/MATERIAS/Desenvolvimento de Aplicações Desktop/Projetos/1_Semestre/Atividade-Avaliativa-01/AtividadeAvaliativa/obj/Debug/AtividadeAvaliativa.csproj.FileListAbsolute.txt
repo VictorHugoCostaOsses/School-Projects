@@ -1,0 +1,33 @@
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form1.resources
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Properties.Resources.resources
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe.config
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.pdb
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.exe
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.pdb
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form2.resources
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe.config
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.pdb
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csprojAssemblyReference.cache
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form1.resources
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form2.resources
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Properties.Resources.resources
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.GenerateResource.cache
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.CoreCompileInputs.cache
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.exe
+D:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.pdb
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe.config
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.pdb
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form1.resources
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form2.resources
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.exe
+F:\2° ano\DAD\PROJETOS\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.pdb

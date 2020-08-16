@@ -1,0 +1,20 @@
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.Form1.resources
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.Properties.Resources.resources
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\bin\Debug\SomaBinario.exe.config
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\bin\Debug\SomaBinario.exe
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\bin\Debug\SomaBinario.pdb
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.exe
+C:\Users\Usuario\source\repos\SomaBinario\SomaBinario\obj\Debug\SomaBinario.pdb
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\bin\Debug\SomaBinario.exe.config
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\bin\Debug\SomaBinario.exe
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\bin\Debug\SomaBinario.pdb
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csprojAssemblyReference.cache
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.Form1.resources
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.Properties.Resources.resources
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csproj.GenerateResource.cache
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.csproj.CoreCompileInputs.cache
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.exe
+D:\2° ano\DAD\PROJETOS\SomaBinario\SomaBinario\obj\Debug\SomaBinario.pdb

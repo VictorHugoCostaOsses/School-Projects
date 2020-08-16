@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1556647148 source:d:\2° ano\ed\inverterstring\string.c
+	<string.h>
+
+1556646934 source:d:\2° ano\ed\inverterstring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	<locale.h>
+
+1556646020 d:\2° ano\ed\inverterstring\string.h
+

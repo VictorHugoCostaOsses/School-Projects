@@ -1,0 +1,22 @@
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\aluno\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+F:\2° ano\DAD\PROJETOS\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

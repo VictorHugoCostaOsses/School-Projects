@@ -1,0 +1,20 @@
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe.config
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.pdb
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.Properties.Resources.resources
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.exe
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.pdb
+C:\Users\aluno\source\repos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.Exemplo3.resources
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe.config
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\bin\Debug\Exercicio2.pdb
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.Exemplo3.resources
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.exe
+F:\2° ano\DAD\PROJETOS\Exercicio2\Exercicio2\obj\Debug\Exercicio2.pdb

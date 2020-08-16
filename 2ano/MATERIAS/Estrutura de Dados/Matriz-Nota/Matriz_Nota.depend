@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1558745718 source:d:\2° ano\ed\matriz_nota\matriz.c
+	<stdio.h>
+	<stdlib.h>
+
+1558745536 source:d:\2° ano\ed\matriz_nota\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+	<locale.h>
+	<stdlib.h>
+
+1558461002 d:\2° ano\ed\matriz_nota\matriz.h
+
+1558745536 source:f:\2° ano\ed\matriz_nota\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+	<locale.h>
+	<stdlib.h>
+
+1558461002 f:\2° ano\ed\matriz_nota\matriz.h
+
+1558745718 source:f:\2° ano\ed\matriz_nota\matriz.c
+	<stdio.h>
+	<stdlib.h>
+
+1558352468 source:g:\2° ano\ed\matriz_nota\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+	<locale.h>
+	<stdlib.h>
+
+1558353136 g:\2° ano\ed\matriz_nota\matriz.h
+
+1558352026 source:g:\2° ano\ed\matriz_nota\matriz.c
+	<stdio.h>
+	<stdlib.h>
+

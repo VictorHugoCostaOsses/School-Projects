@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos com DOM</title>
+</head>
+<body>
+	<form>
+		<span id="resultado">0</span>
+		<input type="button" value="+" onclick="somar();">
+		<input type="button" value="-" onclick="subtrai();">
+	</form>
+
+	<script type="text/javascript">
+		var resultado;
+
+		function somar() {
+			resultado = parseInt(document.getElementById('resultado').innerHTML)+1;
+			formataCor();
+			document.getElementById('resultado').innerHTML = resultado;
+		}
+
+		function subtrai() {
+			resultado = parseInt(document.getElementById('resultado').innerHTML)-1;
+			formataCor();
+			document.getElementById('resultado').innerHTML = resultado;
+		}
+
+		function formataCor() {
+			if (resultado < 0) {
+				document.getElementById('resultado').style.color = "red";				
+			} else if (resultado > 0) {
+				document.getElementById('resultado').style.color = "green";
+			} else {
+				document.getElementById('resultado').style.color = "darkgray";
+			}
+		}
+	</script>
+</body>
+</html>

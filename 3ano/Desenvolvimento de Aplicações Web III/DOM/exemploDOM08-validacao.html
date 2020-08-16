@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validação de formulários</title>
+
+	<script type="text/javascript">
+		//indexOf retorna -1 se não encontrar o procurado
+
+		function verificacaoTipo(tipo){
+			if(tipo == "cpf"){
+			document.getElementById("tx_cpf").disabled = false;
+			document.getElementById("tx_cnpj").disabled = true;
+			}
+			else if(tipo == "cnpj"){
+			document.getElementById("tx_cpf").disabled = true;
+			document.getElementById("tx_cnpj").disabled = false;
+			}
+
+		}
+
+		function enviarDados() {
+
+			document.getElementById("msg").style.color = "red";
+
+			if (document.dados.tx_nome.value == "" || document) {
+				document.getElementById("msg").innerHTML = "Preencha o campo NOME corretamente!";
+				document.dados.tx_nome.focus(); //volta o foco para o campo tx_nome
+				return false;
+			}
+			if (document.dados.tx_email.value == "" || //veri
+				document.dados.tx_email.indexOf('@') == -1 || //procura por @ na string tx_email
+				document.dados.tx_email.value.indexOf('.') == -1) //procura por . na string tx_email 
+			{
+				document.getElementById("msg").innerHTML = "Preencha o campo EMAIL corretamente!";
+				document.dados.tx_email.focus();
+				return false;
+			}
+			if (document.dados.tx_mensagem.value == "") {
+				document.getElementById("msg").innerHTML = "Preencha o campo MENSAGEM";
+				document.dados.tx_mensagem.focus();
+				return false;
+			}
+			if (document.dados.tx_mensage.value.length() < 50) {
+				document.getElementById("msg").innerHTML = "Preencha o campo mensagem com mais de 50 caracteres";
+				document.dados.tx_mensagem.focus();
+				return false;
+			}
+
+			return true;
+		}
+	</script>
+</head>
+<body>
+	<div id="msg"></div>
+	<form method="post" name="dados" onsubmit="return enviarDados()"> <!--return pega o retorno da função-->
+		Nome completo: <br/>
+		<input type="text" name="tx_nome" id="tx_nome" size="52" maxlength="150">
+
+		<br/><br/>
+
+		Email: <br/>
+		<input type="text" name="tx_email" id="tx_email" size="52" maxlength="150">
+
+		<br/><br/>
+
+		<div style="display: flex;flex-direction: row;;">
+		CPF:<input type="radio" name="radio" id="cpf" onclick="verificacaoTipo(this.id)">
+		CNPJ<input style="margin-left: 10px;" onclick="verificacaoTipo(this.id)" type="radio" name="radio" id="cnpj">
+		</div>
+
+		<br><br>
+
+		CPF: <br/>
+		<input type="text"  id="tx_cpf" disabled>
+
+		<br><br>
+
+		CNPJ: <br/>
+		<input type="text"  id="tx_cnpj" disabled>
+
+		<br><br>
+
+		Mensagem: <br/>
+		<textarea name="tx_mensagem" id="tx_mensagem" cols="53" rows="8"></textarea>
+
+		<br/><br/>
+
+		<input type="submit" name="Submit" class="formobjects" value="Enviar Dados">
+
+		<input type="reset" name="Reset" class="formobjects" value="Redefinir">
+	</form>
+
+</body>
+
+</html>

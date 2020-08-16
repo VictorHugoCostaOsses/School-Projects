@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1554754514 source:f:\2° ano\ed\all_exercices\funcoes.c
+	<math.h>
+
+1554754526 source:f:\2° ano\ed\all_exercices\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"funcoes.h"
+
+1554754514 f:\2° ano\ed\all_exercices\funcoes.h
+
+1554821836 source:g:\2° ano\ed\all_exercices\funcoes.c
+	<math.h>
+
+1554821992 source:g:\2° ano\ed\all_exercices\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"funcoes.h"
+
+1554821504 g:\2° ano\ed\all_exercices\funcoes.h
+
+1554821836 source:f:\2° ano\ed\projetos\all_exercices\funcoes.c
+	<math.h>
+
+1554821992 source:f:\2° ano\ed\projetos\all_exercices\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"funcoes.h"
+
+1554821504 f:\2° ano\ed\projetos\all_exercices\funcoes.h
+

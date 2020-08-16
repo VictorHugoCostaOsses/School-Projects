@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1567534900 source:d:\pilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1567532256 d:\pilha\pilha.h
+
+1567532244 source:d:\pilha\pilha.c
+	<stdio.h>
+	"pilha.h"
+
+1567532244 source:h:\2° ano\coisas\ed\pilha\pilha.c
+	<stdio.h>
+	"pilha.h"
+
+1567532256 h:\2° ano\coisas\ed\pilha\pilha.h
+
+1567535030 source:h:\2° ano\coisas\ed\pilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+

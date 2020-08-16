@@ -1,0 +1,33 @@
+Victor Hugo Costa Osses  18152     2INFD
+Gustavo Tawara           18134
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Relatório da Atividade
+
+OBS: Os comandos estão entre aspas simples(' ') para melhor vizualização.
+
+-  Primeiramente criamos um repositório local com o comando 'mkdir Atividade_Branch'
+-  Feito isso entramos nele com o comando 'cd Atividade_Branch'
+-  Demos o comando 'git init' para inicializar o diretório e depois nos identificamos com o comando  git config --global user.name "Gustavo Osses"
+-  Asseguir colocamos (via windowns) um arquivo html de cadastro (box.html)
+-  Para rastrear o arquivo demos o comando 'git add box.html' e para gráva-lo efetivamente demos o comando git commit -m "Inserindo Cadastro"
+-  Depois disso demos o comando 'git branch Cadastro' ,fazendo assim, uma cópia do arquivo contido na master para podermos fazer as  devidas alterações
+-  Para entrar na nova branch demos o comando 'git checkout Cadastro'  e conferimos com o comando 'ls' se havia sido feito a cópia do arquivo html para a branch
+-  Com o comando 'vi box.html' entramos no arquivo e alteramos o background-color: GRAY(do input:hover do cadastro ) para background-color: BLUE; (a - Inserção | Esc + :wq para sair)
+e o box-shadow: 3px 3px 3px ORANGE; (sombra do cadastro) para box-shadow: 3px 3px 3px GREEN;
+-  E novamente para rastrear o arquivo demos o comando 'git add box.html' e para gráva-lo efetivamente demos o comando git commit -m "Alterando a cor... blá blá"
+-  Então fomos até a nossa conta no GitHub e criamos um reposítório chamado Relatorio_Atividade_Branch
+-  No nosso repositório local demos o comando 'git remote add Atividade_Branch https://github.com/VictorHugoCostaOsses/Relatorio_Atividade_Branch.git' para fazermos uma ligação entre os repositórios
+-  Para enviar o box.html alterado para lá demos um 'git push -u Atividade_Branch master'
+-  Após isso fomos até nosso repositório local para mesclar as branchs, então demos o comando 'git merge Cadastro' (na branch master) para isso (aliás, não precisou dar add nem commit depois disso)
+-  Mas aconteceu um imprevisto... No meio de tudo isso esquecemos que alteramos a linha referente ao background-color: GRAY(do input:hover do cadastro ) na master após criar a nova branch, e acabamos mechendo nessa mesma linha novamente dentro da nova branch.
+-  Para resolver esse impasse demos um 'vi box.html' e encontramos o problema: na master estava assim background-color: RED; e na branch Cadastro estava: background-color: BLUE; Então opitamos por 
+escolher o que estava na master (apagamos o que era referente aquela linha na nova branch).
+- Feito isso demos um add e um commit para salvar essa alteração.
+
+E fomos felizes para sempre!
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FIM
+
+
+

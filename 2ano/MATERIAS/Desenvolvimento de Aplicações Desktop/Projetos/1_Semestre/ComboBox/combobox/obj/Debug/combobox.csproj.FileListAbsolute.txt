@@ -1,0 +1,20 @@
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.Form1.resources
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.Properties.Resources.resources
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\combobox\combobox\bin\Debug\combobox.exe.config
+C:\Users\aluno\source\repos\combobox\combobox\bin\Debug\combobox.exe
+C:\Users\aluno\source\repos\combobox\combobox\bin\Debug\combobox.pdb
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.exe
+C:\Users\aluno\source\repos\combobox\combobox\obj\Debug\combobox.pdb
+F:\2° ano\DAD\PROJETOS\combobox\combobox\bin\Debug\combobox.exe.config
+F:\2° ano\DAD\PROJETOS\combobox\combobox\bin\Debug\combobox.exe
+F:\2° ano\DAD\PROJETOS\combobox\combobox\bin\Debug\combobox.pdb
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.Form1.resources
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.exe
+F:\2° ano\DAD\PROJETOS\combobox\combobox\obj\Debug\combobox.pdb

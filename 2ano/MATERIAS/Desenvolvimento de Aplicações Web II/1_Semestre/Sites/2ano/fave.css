@@ -1,0 +1,260 @@
+*{font-size: 100%;box-sizing: border-box; margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+body{background-image:  url(./img/fundoMenu.jpg);width: 100%;height: 100%;position: absolute;margin: 0;padding: 0;}
+.menu{float: left;left: 1.5%;position: absolute;width: 97%;background-color: gray;margin-top: 1%;border-radius: 10px; background-image:
+linear-gradient(90deg, green, orange,blue,red); opacity: 0.8; }
+.menu  ul {width: 100%;float: left;}
+.menu  ul li {float: left;padding: 0.3% 1%;}
+.menu  ul li a{padding: 20px;display: block;font-family: 'Dancing Script', cursive;font-size: 30px; letter-spacing: 10px;color: black;}
+.menu  ul li a:hover{border-color: black;color: orange;background-color: #4E1F52;border-radius: 20px;}
+.NomeSite{padding: 20px;font-family: 'Pacifico', cursive; font-size: 45px;letter-spacing: 5px;color:  #4E1F52;-webkit-user-select: none; 
+-moz-user-select: none;user-select: none;}
+.inicio  span
+{position: absolute;margin-top: 13%;left: 7%;font-size: 70px; color: #6495ED; animation: BemVindo 6s 1s infinite ; border-color: gray;
+border-radius: 10px;}
+.Texto1{font-size: 30px;color: white;position: absolute;margin-top:20%;left: 5%; width: 30%;text-align: justify;}
+.Anitta{background: url(./Artistas/anitta-brasileira.png) left center/150px no-repeat; width: 20%; height:25%; position: absolute; left: 40%;
+top: 30%;   display: block; border-radius: 20px; background-color: orange; padding-right: 50%; top: 40%;}
+.Luan{background: url(./Artistas/luan-santana.jpg) right center/150px no-repeat; width: 20%; height:25%; position: absolute; left: 40%;
+top: 70%;  display: block; background-color: blue; padding-right: 50%; border-radius: 20px;}
+.navegar{float: left;left: 1.5%; position: absolute; top: 103%; width: 100%; font-size: 25px; }
+.navegar ul{float: left; width: 50%;  }
+.navegar ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar ul li a{display: block;color: white; opacity: 0.7;}
+
+.player{ padding-left: 9%; }
+.playlist{ background-color: black; border-radius: 30px; height: 30%; opacity: 0.9;}
+.gen{ color: white; }
+.form audio{ padding-left: 15%; }
+.tit{ padding-left: 20%; }
+.cantores1 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 40%; width: 30%;text-align: justify; top: -65%}
+.cantores2 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 20%; width: 40%;text-align: justify; top: -50%}
+
+.navegar2 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 15%; top: 103%}
+.navegar2 ul{float: left; width: 50%;  }
+.navegar2 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar2 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar3 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 30%; top: 103%}
+.navegar3 ul{float: left; width: 50%;  }
+.navegar3 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar3 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar4 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; top: 163%;}
+.navegar4 ul{float: left; width: 50%;  }
+.navegar4 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar4 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar5 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 15%; top: 163%;}
+.navegar5 ul{float: left; width: 50%;  }
+.navegar5 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar5 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar6 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 30%; top: 163%;}
+.navegar6 ul{float: left; width: 50%;  }
+.navegar6 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar6 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar7 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 8%; top: 223%;}
+.navegar7 ul{float: left; width: 50%;  }
+.navegar7 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar7 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar8 {float: left;left: 1.5%; position: absolute; width: 100%; font-size: 25px; left: 24%; top: 223%;}
+.navegar8 ul{float: left; width: 50%;  }
+.navegar8 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar8 ul li a{display: block;color: white; opacity: 0.7;}
+
+
+@media print{
+
+.menu{visibility: hidden; }
+}
+
+
+@keyframes BemVindo
+{
+ 0%{color: black}
+ 20%{color: #98FB98;}
+ 40%{color: #8A2BE2;}
+ 60%{color: #7A67EE;}
+ 80%{color: #00EEEE;}
+ 100%{color: #8B0000;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 650px)
+{
+ .Texto1{font-size: 20px;color: white;position: absolute;margin-top:20%;left: 5%; width: 30%;text-align: justify; top: 50%}
+ .inicio  span
+{position: absolute;margin-top: 13%;left: 7%;font-size: 50px; color: #6495ED; animation: BemVindo 6s 1s infinite ; border-color: gray;
+border-radius: 10px; top: 45%}
+.player{ padding-left: 15%; }
+
+.cantores1 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 40%; width: 50%;text-align: justify; top: -40%}
+.cantores2 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 10%; width: 40%;text-align: justify; top: -40%}
+
+.Anitta{background: url(./Artistas/anitta-brasileira.png) left center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 30%;   display: block; border-radius: 20px; background-color: orange; padding-right: 50%; top: 100%;}
+.Luan{background: url(./Artistas/luan-santana.jpg) right center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 140%;  display: block; background-color: blue; padding-right: 50%; border-radius: 20px;}
+}
+
+.navegar{float: left; position: absolute; top: 165%; width: 270%; font-size: 25px; }
+.navegar ul{float: left; width: 50%;  }
+.navegar ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar2 {float: left; position: absolute; width: 270%; font-size: 25px; top: 220%}
+.navegar2 ul{float: left; width: 50%;  }
+.navegar2 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar2 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar3 {float: left; position: absolute; width: 270%; font-size: 25px; top: 285%}
+.navegar3 ul{float: left; width: 50%;  }
+.navegar3 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar3 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar4 {float: left; position: absolute; width: 270%; font-size: 25px; top: 350%;}
+.navegar4 ul{float: left; width: 50%;  }
+.navegar4 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar4 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar5 {float: left; position: absolute; width: 270%; font-size: 25px; top: 415%;}
+.navegar5 ul{float: left; width: 50%;  }
+.navegar5 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar5 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar6 {float: left; position: absolute; width: 270%; font-size: 25px; top: 480%;}
+.navegar6 ul{float: left; width: 50%;  }
+.navegar6 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar6 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar7 {float: left; position: absolute; width: 270%; font-size: 25px; top: 545%;}
+.navegar7 ul{float: left; width: 50%;  }
+.navegar7 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar7 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar8 {float: left; position: absolute; width: 270%; font-size: 25px; top: 610%;}
+.navegar8 ul{float: left; width: 50%;  }
+.navegar8 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar8 ul li a{display: block;color: white; opacity: 0.7;}
+
+
+
+@media only screen and (min-width: 250px) and (max-width: 480px)
+{
+.Texto1{font-size: 20px;color: white;position: absolute;margin-top:20%;left: 5%; width: 30%;text-align: justify; top: 70%}
+ .inicio  span
+{position: absolute;margin-top: 13%;left: 7%;font-size: 50px; color: #6495ED; animation: BemVindo 6s 1s infinite ; border-color: gray;
+border-radius: 10px; top: 60%}
+
+.cantores1 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 40%; width: 50%;text-align: justify; top: -40%}
+.cantores2 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 10%; width: 40%;text-align: justify; top: -40%}
+
+.Anitta{background: url(./Artistas/anitta-brasileira.png) left center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 30%;   display: block; border-radius: 20px; background-color: orange; padding-right: 50%; top: 120%;}
+.Luan{background: url(./Artistas/luan-santana.jpg) right center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 140%;  display: block; background-color: blue; padding-right: 50%; border-radius: 20px;}
+}
+
+.navegar{float: left; position: absolute; top: 165%; width: 190%; font-size: 25px; }
+.navegar ul{float: left; width: 50%;  }
+.navegar ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar2 {float: left;left: 17%; position: absolute; width: 190%; font-size: 25px; top: 165%}
+.navegar2 ul{float: left; width: 50%;  }
+.navegar2 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar2 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar3 {float: left; position: absolute; width: 190%; font-size: 25px; top: 230%;}
+.navegar3 ul{float: left; width: 50%;  }
+.navegar3 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar3 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar4 {float: left;left: 17%; position: absolute; width: 190%; font-size: 25px; top: 230%;}
+.navegar4 ul{float: left; width: 50%;  }
+.navegar4 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar4 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar5 {float: left; position: absolute; width: 190%; font-size: 25px; top: 295%;}
+.navegar5 ul{float: left; width: 50%;  }
+.navegar5 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar5 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar6 {float: left;left: 17%; position: absolute; width: 190%; font-size: 25px; top: 295%;}
+.navegar6 ul{float: left; width: 50%;  }
+.navegar6 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar6 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar7 {float: left; position: absolute; width: 190%; font-size: 25px; top: 360%;}
+.navegar7 ul{float: left; width: 50%;  }
+.navegar7 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar7 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar8 {float: left;left: 17%; position: absolute; width: 190%; font-size: 25px; top: 360%;}
+.navegar8 ul{float: left; width: 50%;  }
+.navegar8 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar8 ul li a{display: block;color: white; opacity: 0.7;}
+
+
+}
+/*@media only screen and (min-width: 651px) and (max-width: 900px)
+{
+ .Texto1{font-size: 20px;color: white;position: absolute;margin-top:20%;left: 5%; width: 30%;text-align: justify; top: 60%}
+ .inicio  span
+{position: absolute;margin-top: 13%;left: 7%;font-size: 50px; color: #6495ED; animation: BemVindo 6s 1s infinite ; border-color: gray;
+border-radius: 10px; top: 30%}
+.player{ padding-left: 15%; }
+
+.cantores1 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 40%; width: 50%;text-align: justify; top: -40%}
+.cantores2 {font-size: 15px;color: white;position: absolute;margin-top:20%;left: 10%; width: 40%;text-align: justify; top: -40%}
+
+.Anitta{background: url(./Artistas/anitta-brasileira.png) left center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 30%;   display: block; border-radius: 20px; background-color: orange; padding-right: 50%; top: 100%;}
+.Luan{background: url(./Artistas/luan-santana.jpg) right center/150px no-repeat; width: 90%; height:25%; position: absolute; left: 5%;
+top: 140%;  display: block; background-color: blue; padding-right: 50%; border-radius: 20px;}
+}
+
+.navegar{float: left; position: absolute; top: 165%; width: 270%; font-size: 25px; }
+.navegar ul{float: left; width: 50%;  }
+.navegar ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar2 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 220%}
+.navegar2 ul{float: left; width: 50%;  }
+.navegar2 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar2 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar3 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 285%}
+.navegar3 ul{float: left; width: 50%;  }
+.navegar3 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar3 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar4 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 350%;}
+.navegar4 ul{float: left; width: 50%;  }
+.navegar4 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar4 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar5 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 415%;}
+.navegar5 ul{float: left; width: 50%;  }
+.navegar5 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar5 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar6 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 480%;}
+.navegar6 ul{float: left; width: 50%;  }
+.navegar6 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar6 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar7 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 545%;}
+.navegar7 ul{float: left; width: 50%;  }
+.navegar7 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar7 ul li a{display: block;color: white; opacity: 0.7;}
+
+.navegar8 {float: left;left: 1.5%; position: absolute; width: 270%; font-size: 25px; top: 610%;}
+.navegar8 ul{float: left; width: 50%;  }
+.navegar8 ul li { float: left;  padding: 0.3% 3%; padding-left: 10%;  letter-spacing: 3px;  }
+.navegar8 ul li a{display: block;color: white; opacity: 0.7;}
+*/

@@ -1,0 +1,47 @@
+O que eu codificar em java é portável para qualquer plataforma digital - windows, mac , linux etc.
+   -> Não tem muito como fugir da programação orientada a objetos (POO). O java é bem leve
+- Vamos mudar a forma de pensar e não a programação em si.
+
+Se eu esquecer de "destruir um objeto" o java faz isso auto. após um tempo (isso é necessário para n sobrecarregar a memória RAM)
+
+Objeto: Algo que faz referência a algo do mundo real. E ai temos as instanciações desse objeto para tornalo unico (Ex :Cada aluno tem um RA unico) - Ele é caracterizado por atribuos e metódos/funções
+
+-Atributo: Características ou propriedades dos objetos - Que são de um certo tipo - Java gosta de reclamar do Double - Use double para não ter problemas!!!!
+  -> Objetos devem possuir atributo que o especializem (tornem único - Chave primária) - Geralmente definimos ele como string ou varchar.
+
+Métodos: Quaisquer funções que eu atribua para o objeto - Que alteram o estado do objeto
+
+IMPORTANTE: Definir muito bem as classes - seus atributos e funções
+
+Classes: Juntar os atributos e os métodos 
+
+O que é Java???
+
+É orientado a objeto para cunfionar corretamente.
+Não é uma linguagem compilada, mas sim interpretada - Ou seja, roda em qualquer sistema operacional (bit CODE). Quando eu compilo é gerado um arquivo .exe que só roda no sistema operácional que compilou.
+- Fácil de programar ?
+- Portável - Compilação gera um bytecode que roda na máquina virtual pra funcionar em qualquer sistema.
+- Linguagem de uso geral: Da pra programar (usar) pra qualquer coisa que eu queira.
+- Programas executados em máquina virtual (ByTe CODE)
+- Coleta automatica de lixo de memória RAM caso eu não apague (destrua a classe) - Limpa a memória RAM a cada reinterpretação do código.
+- Suporte ao Banco de Dados.
+- Suporte Gráfico.
+
+Objetos Java podem:
+Acessar linguagens de programação diferentes. Usar uma arquitetura diferente
+
+FUNÇÕES DO JVM
+- Ele já tem uma certa segurança, mas é interessante usar classes com private ou protected para que nimguém  de fora possa acabarf instanciado alguma classe que é publica.
+
+PACKAGES:
+Pacotinhos pra poder fazer acessos a outras informações (APIs), ou seja, são bibliotecas que eu vou precisar acrescentar no proejto.
+
+ex: import java.algumacoisa.outracoisa;
+
+Eles também podem ser definidos assim :
+package meudiretorio.minhasclasses;
+
+Instalação:
+Usar a versão da máquina da escola:  NetBeans IDE 8.2
+
+

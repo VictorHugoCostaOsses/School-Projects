@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>History</title>
+
+	<script type="text/javascript">
+		//back()
+		function voltar() {
+			window.history.back();
+			//window.history.go(-1); //volta uma página
+		}
+		//forward()
+		function prosseguir() {
+			window.history.forward();
+			//window.history.go(2); //vai duas páginas			
+		}
+		//location
+		function entrarSite() {
+			window.location.href = "http://cotil.unicamp.br"; //vai para o site do cotil (muda a location)
+		}
+		//length
+		function numPaginas() {
+			var numeroDePaginasNoHistorico = window.history.length; //mostra o número de páginas no histórico
+			alert(numeroDePaginasNoHistorico);
+		}		
+
+
+	</script>
+</head>
+<body>
+	<input type="button" value="Voltar" onclick="voltar();">
+	<input type="button" value="Prosseguir >>" onclick="prosseguir();">
+	<input type="button" value="Site COTIL" onclick="entrarSite();">
+	<input type="button" value="Número de páginas" onclick="numPaginas();">
+</body>
+</html>

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554757746 source:f:\2° ano\ed\exercicios_extra\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"funcoes.h"
+
+1554757752 f:\2° ano\ed\exercicios_extra\funcoes.h
+
+1554757746 source:f:\2° ano\ed\exercicios_extra\funcoes.c
+	<stdio.h>
+	<stdlib.h>
+

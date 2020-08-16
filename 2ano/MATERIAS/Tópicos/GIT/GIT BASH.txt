@@ -1,0 +1,126 @@
+Para nos reconhecer: 
+git config --global user.name "Fulano da Silva"
+git config --global user.email sla@gmail.com
+
+ls : Diretórios ou arquivos dentro dos mesmos
+
+mkdir : Cria um diretório/ cd .. pra sair
+
+cd aula1/ : Entrar no diretório
+
+git init : Para inicializar um repositório(o diretório vira)
+
+touch filmes.txt : Criar um arquivo
+
+pra entrar : vi filmes.txt
+
+para escrever : tecle a
+
+para sair aperte esc e digite :wq
+
+Diretório: Não rastreado
+
+Area Stage: Area intermediaria(o git sabe que o arquivo está ali , mas ele não esta gravado no repositório)
+
+
+git status: Verifica a situação dos arquivos no diretório(momento atual do diretório)
+
+git add filmes.txt: Adc no stage.
+
+git commit -m "Arquivo inicial de citacoes" (-m: Mensagem)
+
+Pós Mudanças no arquivo, fazer :
+
+para ser rastreado : git add
+
+rastreado mas não gravado; pra gravar: git commit
+
+git log - Verifica o histórico das alterações gravadas.
+
+Site - github.com
+Nome: VictorHugoCostaOsses
+senha: nemteenteressa1
+-------------------------------------------------------------------------------------------------------------------------
+Dentro do diretório aula1
+
+git remote add SiteDAW https://github.com/VictorHugoCostaOsses/Citacoes.git  (ligar os dois- estabele - Isso é o link)
+
+uma relacao-ponto com o repositorio do github - no servidor dele - push: empurrar tudo)
+
+Como pegar um arquivo do meu repositório local e colocar no github.com
+
+
+
+git push -u "SiteDAW" (nome do repositório) master (vai pegar tudo que está salvo no meu repositório e vai passar pra la)
+
+Clonar um repositório que já esta no github
+
+git clone://github.com/FulanoDeTal/Citacoes.git
+
+git pull (traz as atualizações naquele repositório- pra eu trabalhar na parte que ja foi atualizada)
+
+Recortar (mover)arquivos para o meu repositório:
+
+mv/caminho/arquivo/caminho/novo_arquivo
+
+Copiar arquivos pro meu repositório:
+
+cp/caminho/arquivo/caminho_novo_arquivo
+
+Excluir arquivos:
+
+git rm arquivo.ext - Deleção sómente via esse comando
+e depois : git commit -m "Mensagem" 
+
+Renomear arquivo:
+
+git mv arquivoNomeAntigo.ext arquivoNomeNovo
+
+Movendo arquivos:
+
+git mv arquivo.ext diretorio/arquivo.ext
+e depois git commit -m "Mensagem" 
+
+Desfazendo alterações não rastreadas (não foi feito nem add - área de stage):
+
+git checkout -- arquivo.ext - Desfazer as alterações
+
+Desfazendo alterações rastreadas (área de stage)
+
+git reset -- arquivo.ext  -- Não modifica o arquivo, só o tira do stage
+
+Desfazendo alterações "comitadas"
+
+Exect git revert --no-edit 172691b - Esse número é condigo do commit (pego esse número no git log)
+
+
+Etapas 
+
+la no git hub - Fork (cópia do repositório do coleguinha no meu)
+git clone 
+
+depois enviar pro meu repositorio
+
+depois dar um creat new pull request
+-----------------------------------------------
+
+Não criar branch vazia (dar add e commit)
+git branch - Cópia da master
+
+git branch | git branch NOME |git checkout NOME - mudar para uma branch
+git branch -v : comparacao 
+
+
+git push origin poffo - PRA ENVIAR PARA O GIT - "poffo" é uma branch rsrs
+ex: 
+
+git remote add origin https://github.com/VictorHugoCostaOsses/testeBranch.git
+obs: origin (conexão)
+
+OBS: NO CLONE NÃO PRECISA DAR GIT INIT NEM REMOTE
+
+git --no-merged : Ver as branchs qye n foram mescladas
+
+git merge NOME -m "sdfsf" (tenho que estar na master para mesclar- já da um commit)
+
+depois de resolver o conflito dar add e commit

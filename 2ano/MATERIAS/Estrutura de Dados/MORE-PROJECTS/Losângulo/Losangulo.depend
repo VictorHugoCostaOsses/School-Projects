@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1553013021 source:c:\users\aluno\documents\losangulo\losangulo.c
+
+1553012609 c:\users\aluno\documents\losangulo\losangulo.h
+
+1553014267 source:c:\users\aluno\documents\losangulo\main.c
+	<stdio.h>
+	<stdlib.h>
+

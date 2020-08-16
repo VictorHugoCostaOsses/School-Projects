@@ -1,0 +1,28 @@
+MS = 0,4 * MP 0,2 * MQO + 0,3 * MAt + 0,1 * Freq
+
+Váriavel - Posição de memória (reservar) e dar um nome.
+Estrutura de dados - Manipular informações/Acessare conjutos de forma mais eficiente 
+
+
+Ciclo:                   compilar                                                  Link(conecta os arquivos obj de forma ordenada pra que o processador possa entender)
+  Escrever programa (.C) -----> Arquivos objetos .(OBJ, linguagem que PC entende, geralmente mais que um por exemplo uma biblioteca) ------> Executavel
+
+IDE - Ambiente integrado de desenvolvimento (programa que permite qu vc crie projetos ,ou seja, artigos fonte que é o que vc digita)
+
+Linguagem C - É uma linguagem COMPILADA, transforma em um executavel e tals. Existem linguagens que são interpretadas POR EXEMPLO Java Script em que O codigo é tranformado em informação 
+na hora e é processado.
+
+> gcc -o prog prog.c (Da linguagem C) - QUando executo um programa chama esse maninho aqui, compila e manda gerar um executavel. O codeblocks é só um grid(janela)
+
+> gcc -o prog converte.c principal.c (mais de um artigo fonte) - Compile esse arquivo e este, junte e executavel deles. (REALIDADE)
+
+int main() Ponto de entrada para o processador começar a processar. Todo compilador tem que ter esse ponto.
+void - Serve pra retornar nada
+
+Teclado tem memória (buffer) e do buffer vai pro programa, scanf() le o buffer(que posição da memória eu coloco isso) - endereço de memória de uma variável de um tipo ai
+
+PATH - Variável de ambiente, caminho até o compilador por exemplo (no prompt)
+
+
+
+

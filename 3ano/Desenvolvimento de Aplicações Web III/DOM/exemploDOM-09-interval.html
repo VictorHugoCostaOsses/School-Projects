@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interval</title>
+
+	<script type="text/javascript">
+		function acao() {
+			//document.write("Executando...<br/>");
+
+			document.getElementById("doc").innerHTML = document.getElementById("doc").innerHTML + "Executando... <br/>";
+		}
+
+		//setInterval(acao, 1000); //executa a função acao de 1 em 1 segundo
+		var timer = setInterval(acao, 1000);
+	</script>
+</head>
+<body>
+	<button onclick="clearInterval(timer);">Parar execução</button> <!--clearInterval limpa o intervalo criado na função timer-->
+	<div id="doc"></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.Form1.resources
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.Properties.Resources.resources
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\bin\Debug\Exercicio3.exe.config
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\bin\Debug\Exercicio3.exe
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\bin\Debug\Exercicio3.pdb
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.exe
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.pdb
+C:\Users\aluno\source\repos\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\bin\Debug\Exercicio3.exe.config
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\bin\Debug\Exercicio3.exe
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\bin\Debug\Exercicio3.pdb
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csprojAssemblyReference.cache
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.Form1.resources
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.Properties.Resources.resources
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csproj.GenerateResource.cache
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.csproj.CoreCompileInputs.cache
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.exe
+F:\2° ano\DAD\PROJETOS\Exercicio3\Exercicio3\obj\Debug\Exercicio3.pdb

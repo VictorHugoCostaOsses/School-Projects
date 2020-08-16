@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="cadastro.css">
+	<link rel="stylesheet" type="text/css" media="print" href="impressao.css">
+    <meta name="viewport " content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=0.5,maximum-scale=3">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<fundo>
+	<h1 class="fundoImg"></h1>
+</fundo>
+
+
+<header class="menu">
+ <ul>
+	 <li class="NomeSite">HighMusic</li>
+	 <li><a href="HighMusic.html">Home | </a> </li>
+	 <li><a href="#"> Favoritos|</a> </li>
+	 <li><a href="#">Login|</a> </li>
+ </ul>
+</header>
+
+
+<table class="box1" >
+<form>
+
+<tr class="Campo">
+ <td> 
+	 <label for="nome">Nome:</label><br>
+	 <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required minlength="5" class="formataImput">
+ </td>
+</tr>
+	
+
+<tr class="Campo">
+  <td>
+    <label for="email">E-mail:</label><br>
+	<input type="email" id="email" required placeholder="victor@gmail.com" class="formataImput">
+  </td>
+</tr>
+	
+
+<tr class="Campo">
+  <td>
+	<label for="senha">Senha:</label><br>
+	<input type="password" placeholder="Digite sua senha" name="senha" minlength="8" required class="formataImput">
+  </td>
+</tr>
+	
+
+<tr class="Campo">
+<td>
+
+<label class="espaco1">Escolha  seus  gêneros  musicais  favoritos:</label><br><br>
+
+<div class="espaco"> 
+
+<input type="checkbox" name="Sertanejo" id="Sertanejo" value="Sertanejo" ><label for="Sertanejo" >Sertanejo</label>
+
+<input type="checkbox" name="Pop" id="Pop" value="Pop" ><label for="Pop">Pop</label>
+
+<input type="checkbox" name="Eletrônica" id="Eletrônica" value="Eletrônica" ><label for="Eletrônica">Eletrônica</label>
+<input type="checkbox" name="Musica Relaxante" id="Musica Relaxante" value="Musica Relaxante" ><label for="Musica Relaxante">Musica Relaxante</label>
+<input type="checkbox" name="Rap Nacional" id="Rap Nacional" value="Rap Nacional" ><label for="Rap Nacional">Rap Nacional</label>
+<input type="checkbox" name="Axé" id="Axé" value="Axé"><label for="Axé">Axé</label>
+</tr>
+<td>
+</div>
+
+<tr class="Campo">
+  <td>
+    <label for="aniversario">Data de Aniversário:</label><br>
+	<input type="date" name="aniversario"  id="aniversario" required class="formataImput">
+  </td>
+</tr>
+	
+<tr class="Campo">
+ <td>
+  <label for="idade">Idade:</label><br>
+  <input type="number"  id="idade" minlength="10" step="2" placeholder="Idade" value="16" class="formataImput">
+ </td>
+</tr>
+	
+	
+<tr class="Campo">
+   <td>
+	<input type="submit" value="Cadastrar" class="button" class="formataImput"><br>
+   </td>
+</tr>
+
+
+</form>
+</table>
+
+
+
+</body>
+</html>

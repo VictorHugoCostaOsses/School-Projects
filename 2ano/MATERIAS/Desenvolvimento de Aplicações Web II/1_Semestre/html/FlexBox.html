@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste 2</title>
+	<style type="text/css">
+	
+
+   .nav
+    {
+  
+     height: auto;
+     max-width: 300px;
+     margin-bottom: 20px;
+     background-color: white;
+     margin-top: 30px;
+     margin-left: 30px;
+    }
+    
+
+    .nav ul li
+    {
+    	margin-top: 6px;
+        max-width: 450px;
+    }
+
+
+h1{
+	color: #3f1ff2;
+	font-size: 20px;
+	max-width: 200px;
+    padding-left: 13px;
+}
+
+.container/* Esses elementos vão fluir e vão ser alinhados em relação a esse elemento pai (não mais ao body)*/
+{
+display: flex;/* Vantagem: Continua a ser um elemento  e não se comporta como texto como no inline*/
+flex-direction: row; /* O padrão é row; pode assumir column ou  row-reverse*/
+flex-wrap: wrap; /*nowrap - Padrão - não quebrar a linha,, wrap- quebrar a linha caso a largura seja insuficiente */
+align-items: center; /* alinhas os elementos no centro, eles não ficam do mesmo tamho */
+justify-content: center;
+background-color: gray;
+}
+
+
+     
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="nav">
+			<h1>HTML e CSS são linguagens de conteúdo</h1>
+			<ul>
+				<a><li>HTML define os elementos e o conteúdo da página</li></a>
+				<a><li>CSS define a formatação desses elementos</li></a>
+				<a><li>A linguagem de programação do navegador é o <b>JavasScriptN</b></li></a>
+			</ul>
+			
+		</div>
+
+			     <div class="nav">
+					<h1>O HTML trabalha com elementos</h1>
+				<ul>
+					<a><li>Cada elemento possui tags</li></a>
+					<a><li>Entre as tags nós colocamos os conteúdos</li></a>
+					<a><li>Para alterar o elementos nós usamos atributos</li></a>
+				</ul>
+		</div>
+
+		<div class="nav">
+			<h1>O CSS formata os elementos</h1>
+			<ul>
+				<a><li>O CSS tem seus próprios atributos</li></a>
+				<a><li>Vários atributos podem ser agrupados para cada classe ou elemento HTML</li></a>
+				<a><li>Um elemento pode ter uma ou mais classes CSS</li></a>
+			</ul>
+			
+		</div>
+</div>
+</body>
+</html>

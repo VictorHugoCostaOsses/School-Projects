@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>asdasd</title>
+	<meta charset="utf-8">
+		<style type="text/css">
+	
+	.box
+	{
+	width: 33%;
+	height: 250px;
+	border: solid 2px black;
+	float: left;
+	margin-left: 1px; 
+    }
+
+
+	#menu{
+		background-color: black;
+		color: white;
+		width: 100%;
+		height: 30px;
+		padding-left: 10px;
+		margin-bottom: 20px;
+		padding:  10px 0px 10px 0px;
+
+		}
+
+		body
+		{
+			margin: 0px;
+			font-family: sans-serif;
+		}
+      
+      label
+      {
+      	color: green;
+      }
+
+   .box1
+   {
+   	border-radius: 10px 2px 2px 2px;
+   	border: 1px solid gray;
+   	padding: 10px 30px 10px 30px;
+   	max-width: 470px;
+   	box-shadow: 3px 3px 3px orange;
+   }
+   
+   .box-campos{
+   	margin-bottom: 20px;
+   }
+
+   input:hover
+  {
+    background-color: gray;
+     border-color: green;
+  }
+
+ input:focus
+ {
+    background-color: white;
+    border-color: green;
+    color: green;
+ }
+
+ .formataImput{
+ 	width: 100%;
+ 	height: 30px;
+ 	margin-top: 5px;
+ 	background-color: lightgreen;
+ 	border-radius: 10px;
+
+ }
+
+ .button{
+ 	width: 100%;
+ 	color: black;
+ 	font-size: 20px;
+ 	text-shadow: 1px 1px gray;
+ 	border-radius: 5px;
+ 	padding: 10px 0px 10px 0px;
+
+ 	background-color: #2ecc71;
+ 	border-bottom: 5px solid  #27ae60;
+ 	border-right: 5px solid  #27ae60;
+ 	border-top: 5px solid #2ecc71;
+ 	border-left: 5px solid #2ecc71;
+
+ }
+
+ .button:hover {
+ 	background-color: #2ecc71;
+ 	border-bottom: 5px solid  #2ecc71;
+ 	border-right: 5px solid  #2ecc71;
+ 	border-top: 5px solid #27ae60;
+ 	border-left: 5px solid #27ae60;
+
+ }
+
+ .button:focus
+ {
+    background-color: #2ecc71;
+ 	border-bottom: 5px solid  #2ecc71;
+ 	border-right: 5px solid  #2ecc71;
+ 	border-top: 5px solid #27ae60;
+ 	border-left: 5px solid #27ae60;
+
+ }
+
+
+
+
+		
+	</style>
+	
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+<h1>Novo Usuário</h1>
+<br> 
+
+<div class="box1">
+<form>
+	<div class="box-campos">
+	<label for="nome">Nome</label>
+	<input type="text" name="nome" id="nome" placeholder="Digite um nome" required minlength="5" class="formataImput">
+</div>
+	
+
+	<div class="box-campos">
+	<label for="email">E-mail</label>
+	<input type="email" id="email" required placeholder="nome@email.com" class="formataImput">
+</div>
+	
+
+	<div class="box-campos">
+	<label for="senha">Senha</label>
+	<input type="password" placeholder="Digite um senha" name="senha" minlength="6" required="" class="formataImput">
+</div>
+	
+
+	<div class="box-campos">
+	<label>Gêneros Musicais Favoritos</label>
+	<input type="checkbox" name="fruta" id="laranja" value="laranja" ><label for="laranja" >Setanejo</label>
+	<input type="checkbox" name="maca" id="maca" value="maca" ><label for="maca">Pop</label>
+	<input type="checkbox" name="banana" id="banana" value="banana" ><label for="banana">Eletrônica</label>
+</div>
+	
+
+	<div class="box-campos">
+	<label>Sexo</label>
+	<input type="radio" name="Sexo"  id="F" value="F" >
+	<label for="F">F</label>
+	<input type="radio" name="Sexo"  id="M" value="M" >
+	<label for="M">M</label>
+</div>
+	
+
+	<div class="box-campos">
+	<label for="Cor">Escolha uma cor</label>
+	<input type="color" name="Cor"  id="color" class="formataImput">
+</div>
+	
+    
+    <div class="box-campos">
+    <label for="aniversario">Data de Aniversário</label>
+	<input type="date" name="aniversario"  id="aniversario" required class="formataImput">
+</div>
+	
+
+    <div class="box-campos">
+	<label for="idade">Idade</label>
+	<input type="number"  id="idade" minlength="10" step="2" placeholder="Idade" value="10" class="formataImput">
+</div>
+	
+	<div class="box-campos">
+	<label for="nota">Nota</label>
+	<input type="range"  id="nota" max="10" minlength="0" class="formataImput">
+</div>
+	
+
+	<div class="box-campos">
+	<label for="pagina">Página</label>
+	<input type="url" placeholder="https://suapagina.com" id="pagina" class="formataImput">
+</div>
+	
+	
+	<div class="box-campos">
+	<input type="submit" value="Castrar" class="button" class="formataImput"><br>
+</div>
+
+</form>
+
+
+	<br><br><br>
+
+</div>
+
+<div id="box1" class="box"></div>
+
+<div id="box2" class="box"></div>
+
+<div id="box3" class="box"></div>
+
+</body>
+</html>

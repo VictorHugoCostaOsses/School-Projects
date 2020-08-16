@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1552409865 source:c:\users\aluno\documents\funcoes\funcoes.c
+	<math.h>
+
+1552408573 source:c:\users\aluno\documents\funcoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funcoes.h"
+
+1552408451 c:\users\aluno\documents\funcoes\funcoes.h
+
+1552409972 source:f:\2° ano\ed\projetos\funcoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funcoes.h"
+
+1552409518 f:\2° ano\ed\projetos\funcoes\funcoes.h
+

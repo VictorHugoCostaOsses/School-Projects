@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553020242 source:c:\users\aluno\documents\exerciciovetor\main.c
+	<stdio.h>
+	<stdlib.h>
+

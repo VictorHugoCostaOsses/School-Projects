@@ -1,0 +1,20 @@
+C:\Users\aluno\source\repos\Cronometro\Cronometro\bin\Debug\Cronometro.exe.config
+C:\Users\aluno\source\repos\Cronometro\Cronometro\bin\Debug\Cronometro.exe
+C:\Users\aluno\source\repos\Cronometro\Cronometro\bin\Debug\Cronometro.pdb
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.Form1.resources
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.Properties.Resources.resources
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.exe
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.pdb
+C:\Users\aluno\source\repos\Cronometro\Cronometro\obj\Debug\Cronometro.csprojAssemblyReference.cache
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.csprojAssemblyReference.cache
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.Form1.resources
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.Properties.Resources.resources
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.GenerateResource.cache
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.CoreCompileInputs.cache
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.exe
+E:\2° ano\Cronometro\Cronometro\obj\Debug\Cronometro.pdb
+E:\2° ano\Cronometro\Cronometro\bin\Debug\Cronometro.exe.config
+E:\2° ano\Cronometro\Cronometro\bin\Debug\Cronometro.exe
+E:\2° ano\Cronometro\Cronometro\bin\Debug\Cronometro.pdb

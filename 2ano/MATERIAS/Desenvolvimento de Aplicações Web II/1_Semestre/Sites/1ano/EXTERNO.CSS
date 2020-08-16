@@ -1,0 +1,136 @@
+
+.cabeca
+{ 
+	
+      background-color: #00CED1;  /* background-color: #00CED1; */
+      width: 100%;
+      font-size: 20px;
+      margin-top: -4.3%;
+      text-shadow: 1px 2px 12px;
+      text-align: justify;
+      /*position: fixed;*/
+      
+
+}
+
+
+body
+{
+    
+	 background-image: url("Imagens/Fundo.png");
+	 background-size: 100% ; 
+	 background-attachment: fixed;
+	 background-position: center bottom;
+	 background: linear-gradient (white , purple,black);
+     text-decoration-color: white;
+	 font-size: 17px;
+	 width: 85%;
+	 margin-top: 0%;
+	 margin-bottom: 0%;
+	
+	
+	 margin-left: 5.5%;
+     border-style: groove; 
+     border-width: 18px;
+     border-color: blue;
+     border-radius:20px; 
+     /*border-bottom-right-radius: 20px;*/
+   
+	 opacity: 1;
+	 text-align: justify;
+	 text-decoration: italic;
+	 text-shadow: 2px 3px 12px;
+
+	/*background: linear-gradient(green , purple,orange);
+	border-top: 10px dashed blue;
+	border-left: 10px solid green;
+	border-bottom: 10px groove orange;
+	border-right: 10px dotted red;*/
+
+	box-shadow: inset -30px -30px 15px black;
+
+}
+
+.corpo
+{
+	background-color: #00CED1;;  /*  background-color: #00CED1;*/
+
+}
+
+table.BordaSimples
+{
+   width: 100.05%;
+   /*border-collapse: collapse;
+   border-style: solid;
+   border-color: blue;
+   border-collapse: separate;
+   border-spacing: 50px;
+   */
+   background-color: #00CED1;;
+   
+    border-top: 10px groove blue;
+	border-left: 10px groove blue;
+	border-bottom: 10px groove blue;
+	border-right: 10px groove blue;
+
+
+}
+
+table.BordaSimples th
+{
+	border: 1px solid #00CFD2; 
+}
+
+
+th
+{
+	width: 20%;
+
+}
+
+.final
+{
+	font-size: 20px;
+    color: red;
+    margin-bottom: -21px;
+}
+
+.sla
+{
+  /*background-color:black;  Mudar posição de uma div
+  position: relative;
+  bottom: 40px;*/
+
+}
+
+.img
+{
+	width: 10%;
+	position: fixed;
+	top: 50px;
+	left: 1450px;
+	opacity: 0.8;
+	z-index: 2; /* pula uma certa quantidade*/
+
+}
+
+.img2
+{
+  position: relative;
+  top: 100px;
+  left: 140px;
+  opacity: 1; 
+}
+
+.img3
+{
+ position: absolute;
+  top: 100px;
+  left: 1450px;
+  opacity: 1; 
+}
+
+
+
+
+}

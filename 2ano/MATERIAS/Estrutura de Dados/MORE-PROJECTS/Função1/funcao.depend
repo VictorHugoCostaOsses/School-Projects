@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1556043534 source:f:\2° ano\ed\funcao\funcao.c
+	<stdlib.h>
+	<stdio.h>
+
+1555978292 source:f:\2° ano\ed\funcao\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcao.h"
+
+1555970012 f:\2° ano\ed\funcao\funcao.h
+
+1555941152 source:g:\2° ano\ed\funcao\funcao.c
+	<stdlib.h>
+
+1555941096 source:g:\2° ano\ed\funcao\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcao.h"
+
+1555898804 g:\2° ano\ed\funcao\funcao.h
+
+1556042270 source:d:\2° ano\ed\funcao\funcao.c
+	<stdlib.h>
+	<stdio.h>
+
+1556041836 source:d:\2° ano\ed\funcao\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcao.h"
+
+1556041836 d:\2° ano\ed\funcao\funcao.h
+

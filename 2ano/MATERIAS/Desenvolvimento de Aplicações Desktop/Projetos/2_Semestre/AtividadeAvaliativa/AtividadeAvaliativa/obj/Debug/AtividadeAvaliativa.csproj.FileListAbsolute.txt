@@ -1,0 +1,16 @@
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe.config
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.exe
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\AtividadeAvaliativa.pdb
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Form1.resources
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.Properties.Resources.resources
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.exe
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.pdb
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\MySql.Data.dll
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\Google.Protobuf.dll
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\Renci.SshNet.dll
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\bin\Debug\MySql.Data.xml
+C:\Users\aluno\source\repos\AtividadeAvaliativa\AtividadeAvaliativa\obj\Debug\AtividadeAvaliativa.csproj.CopyComplete

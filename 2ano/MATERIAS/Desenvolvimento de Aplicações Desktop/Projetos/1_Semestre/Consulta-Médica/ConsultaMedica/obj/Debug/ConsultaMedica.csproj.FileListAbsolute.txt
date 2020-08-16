@@ -1,0 +1,47 @@
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe.config
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.pdb
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csprojAssemblyReference.cache
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form1.resources
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Properties.Resources.resources
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.exe
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.pdb
+C:\Users\aluno\source\repos\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form2.resources
+D:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe.config
+D:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe
+D:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.pdb
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csprojAssemblyReference.cache
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form1.resources
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form2.resources
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Properties.Resources.resources
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.GenerateResource.cache
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.CoreCompileInputs.cache
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.exe
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.pdb
+E:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe.config
+E:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe
+E:\2° ano\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.pdb
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csprojAssemblyReference.cache
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form1.resources
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form2.resources
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Properties.Resources.resources
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.GenerateResource.cache
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.CoreCompileInputs.cache
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.exe
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.pdb
+E:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.SplashScreen.resources
+D:\2° ano\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.SplashScreen.resources
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe.config
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.exe
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\bin\Debug\ConsultaMedica.pdb
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csprojAssemblyReference.cache
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form1.resources
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Form2.resources
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.SplashScreen.resources
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.Properties.Resources.resources
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.GenerateResource.cache
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.csproj.CoreCompileInputs.cache
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.exe
+D:\2° ano\DAD\ConsultaMedica\ConsultaMedica\obj\Debug\ConsultaMedica.pdb

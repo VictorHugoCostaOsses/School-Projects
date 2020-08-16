@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animação 2</title>
+	<style type="text/css">
+		
+
+div
+{
+
+  animation:  animacao1 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  position: relative;
+  margin-left: 45%;  
+  margin-top: 100px;
+}
+
+/*
+div:hover
+{
+	width: 150px;
+	height: 100px;
+	transform: translate(60px,80px);
+	transition-duration: 7s;
+}
+*/
+
+@keyframes animacao1
+{
+	from
+
+	{
+	background: blue;
+	width: 1000px;
+	height: 5000px;
+	}
+
+	to:
+
+	 {
+background: gray;
+width: 500px;
+height: 100px;	
+    }
+
+ }
+   
+
+
+
+@keyframes animacao1
+{
+
+
+   0%
+   {
+      background: blue;
+      width: 50px;
+      height: 50px;
+      left: 0px;
+      top: 0px;
+      
+   }
+
+   25%
+   {
+      background: black;
+      width: 50px;
+      height: 50px;
+      left: 250px;
+      top: 0px;
+     
+   }
+
+ 50%
+   {
+      background: green;
+      width: 50px;
+      height: 50px;
+      left: 250px;
+      top: 250px;
+     
+   }
+
+    75%
+   {
+      background: orange;
+      
+      width:50px;
+      height: 50px; 
+      left:0px;
+      top: 250px;
+   }
+
+    100%
+   {
+
+      background: yellow;
+      width: 50px;
+      height: 50px;
+      left: 0px;
+      top: 0px;
+      
+   }
+  
+}
+/*
+div
+{
+	width:50px;
+	height: 50px;
+	background:black;
+	animation-name: rodar;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease; /*faz uma pequena passa - o outro é linear  
+	animation-direction: alternate;
+
+}
+
+@keyframes rodar{
+
+from 
+{
+transform: rotade(0deg);
+}
+to
+{
+transform: rotate(360deg);
+}
+
+}*/
+
+
+</style>
+</head>
+<body>
+
+<div>Oi</div>
+
+</body>
+</html>

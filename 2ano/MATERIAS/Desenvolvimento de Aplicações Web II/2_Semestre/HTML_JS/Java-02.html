@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Concatenação</title>
+	<!--; - é facultativo :D -->
+	<script type="text/javascript">
+		var texto = 'UNICAMP'
+		console.log("------charAt()------");
+		console.log(texto.charAt(0));
+
+			console.log("------Slipt()------");
+			texto = 'COTIL-UNICAMP-LIMEIRA';
+
+			texto2 = 'ASed ut perspiciatis unde omnis iste natus error sit voluptatem sd accusantium ds sdfs doloremque laudantium, totam rem aperiam, eaque ipsa COTIL ab illo inventore veritatis et quasi architesequi nesciunt. COTIL porro quisquam est, qui dolorem ipsum quia dolor sit a';
+			var aux = texto.split("-");
+
+			for(var i=0; i<aux.leght; i++){
+				console.log(aux[i]);
+			}
+
+			/*console.log(aux[0]);
+			console.log(aux[1]);
+			console.log(aux[2]);
+			*/
+
+			console.log("------indexOf-------");
+			console.log(texto.indexOf('LIMEIRA'));/*Pega a posição da primeira letra na string (do inicio da palavra). Nesse caso pegou a posição da letra L */
+
+            console.log("Retorna -1 quando não acha o inicio de um dado valor\t"  + texto.indexOf('l'));
+
+			console.log("------Slice---------");
+			console.log(texto.slice(6,12));/*Posição inicial seguida de posição final*/
+           
+
+           var x = texto2.indexOf('COTIL');
+
+                 for(x=x; x<=145; x++){
+				console.log(texto2[x]);
+			}
+
+          console.log(texto2.lastIndexOf('COTIL'));/* lê a string do final para o inicio*/
+          console.log(texto2.match('COTIL'));// Mostra um monte de informação
+          console.log(texto2.split(' '));
+
+          var palavras = texto2.split(' ');
+
+          for(var z=0; z<palavras.length; z++){
+          	if(palavras[z] === 'COTIL') {
+          		console.log(palavras[z]);
+          	}
+          }
+
+//--------------------------------------------------------------------.
+var pessoas = ["João","Maria","Sebastião","Antônio","José"];
+var tamanho = pessoas.length;
+
+for(var kk = 0; kk<tamanho; kk++)
+{
+	if(pessoas[kk].length === 4)
+	{
+		console.log(pessoas[kk]);
+		alert(pessoas[kk]);
+
+	}
+}
+var vetorInt = [12, 32, 21, 41];
+var vetorString = ["a", "b", "c", "d"];
+var vetorDouble = [61.5, 7.2, 9.1, 8.6];
+
+console.log(vetorInt.concat(vetorString, vetorDouble));
+
+console.log(vetorInt+ " " +  vetorString + " " + vetorDouble);
+
+//--------------------------------------------------------------------------
+
+var vetorPilha = [1, 2, 3, 4, 5];
+var vetorAdiciona = [6, 7, 8, 9, 10];
+
+for(var m=0; m<vetorAdiciona.length; m++)
+{
+   console.log(vetorPilha.push(vetorAdiciona[m]));
+}
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
