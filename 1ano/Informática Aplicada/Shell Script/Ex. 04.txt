@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Digite o valor da base do terreno"
+read base
+echo "Agora digite o valor da altura do terreno"
+read altura
+area=$((base*altura))
+echo "A area do terreno e $area metros quadrados"

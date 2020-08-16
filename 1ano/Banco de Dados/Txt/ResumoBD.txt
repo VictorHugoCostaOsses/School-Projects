@@ -1,0 +1,115 @@
+ |      Criar BD:        |            |  acessar BD:  |           |  Exibir BDs:  |        | Exibir tabelas: |           | Excluir BDs: |
+|                         |   -----> |   use COTIL;    | ---->  |  show databes;   | ---> |   show tables;    | -->  | drop database COTIL; | 
+ | create database COTIL;|                                                                                       
+                                                                                                                     OBS: DROP - Exclui linhas.
+                                                                                      OBS: Liberar WWHERE para os comandos : SET_SAFE_UPDATES = 0;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ |     Criar TABELA:     |   Values:                                                                             | Excluir tabela: |
+|                         |  ----->  PRIMARY KEY, NOT NULL, INTEGER(10), CHAR(20), STRING(3),AUTO INCREMENT --> | drop table COTIL;  |
+ | create table COTIL(); |    Chave pri. composta --> PRIMARY KEY (a,c));
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ |   Eibir tabelas:  |          |    Modiicar ESTRUTURA:   |   ADD: (adcionar campo)
+|                     | -----> |                            |  -----> alter table TABELA add endereco CHAR(40) after CAMPO;      
+ |  describe tables; |          |  alter table  TABELA...; |   ADD CHAVE ESTRAGEIRA:
+                                                               -----> Alter table TABELA add foreign key (codcli) references TABELA1(codigo);
+                                                               CHANGE: (nome do campo e tipo)
+                                                               -----> alter table TABELA change email e_mail CHAR(40);  
+                                                               MODIFY: (tipo do campo)
+                                                               -----> alter table TABELA modify email INTEGER(30);
+                                                               RENAME TO: (nome da tabela)
+                                                               -----> alter table TABELA rename to TABELA2;
+                                                               DROP: (Campo e Chaves Primárias)
+                                                               -----> alter table TABELA drop CAMPO;
+                                                               -----> alter table TABELA drop primary key;
+                                  
+-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ |                  Adcionar valores:                       |          |                     Especificando:                         |
+|                                                            |  ----> | insert info TABELA (nome,sexo) values ('Victor','Masculino'); |
+ | insert info TABELA values('Victor', '123456', 'Homem' ); |
+
+OBS: Preenche valores de campos já criados em ordem.
+     Deves-se preencher todos os campos.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ |                       Atualizando Valores:                         |         
+|                                                                      |  OBS: Jamais esquecer o WHERE senão todos os registros serão alterados.
+ |    update TABLE set nome = 'Victor Hugo' WHERE nome = 'Idiota') ;  |  DICA: Usar o WHERE com chave primária e não com o campo 'nome' como mo Ex.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ |     Consultando registros: |           |       Especificando:     |           |     Especificando mais - WHERE(quando)              |
+|                              |  -----> |  select nome,ra from TABELA | -----> |  Ex: select nome,ra from aluno where (idade = '16');  |
+ |    select * from TABELA;   |                                                 |  Ex: select nome,ra from aluno where (idade != '16'); |
+                                                                                  | Ex: select * from empregados where nome is null;  |
+                   
+                                                               ORDER BY (em ordem alfabética ou numérca. SEMRE VEM NO FINAL DO COMANDO) 
+                                                               ------> select nome from aluno where (idade = '22') and/&& (sexo = 'M') order by asc/desc;
+
+                                                               BETWEEN (intervalo)
+                                                               ------> select nome from TABELA where CAMPO between '1400' and '1500' 
+                                                               ------> update TABELA set valor = valor*1.15 where CAMPO between  '2017-01-01' and '2017-05-31';
+
+                                                               LIKE / NOT LIKE (busca semelantes / busca não semelhantes)
+                                                               ------> select nome from TABELA where CAMPO like (A%);
+                                                               obs: '(A%)' - %: Quaisquer caractéres após. Ou '(A____)' : 3 caractéres após o A.
+                                                               ------> select nome from TABELA where CAMPO note like (A%);
+                                                               obs: Exibira todos os nomes que não comececem com a letra 'A'.
+
+                                                               GROUP BY / HAVING
+                                                               ------> select codcli, avg(valor) from conta GROUP BY codcli HAVING avg(valor)>2000;
+                                                               obs: Quando for colocar uma função depois do BROUP BY utilizar HAVING(tendo) e a função.
+
+                                                               SUBQUERY (Consulta dentro de outra consulta)
+                                                     -----> select distinct cargo,setor from empregados where cargo IN (select cargo from empregados where codigo=25);
+                                                  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FUNCÕES:
+
+SUM(soma):
+----> select * sum(salario) from empregados; OBS: O campo salário é o parâmetro da funão SUM.  
+AVG(média):
+----> select * avg(salario) from empregados; 
+MIN(mínimo):
+----> select * min(salario) from empregados;
+MAX(máximo):
+----> select * max(salario) from empregados; 
+COUNT(contar):
+----> select * COUNT( distinct salario) from empregados; OBS: DISTINCT: vai contar quantos salários diferentes tem.
+WITH ROLLUP (total de uma função):
+----> select codcli,sum(valor)as 'conta' from
+ conta group by codcli with 
+rollup;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                               
+
+                                                               
+
+         
+                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Digite o ano do seu nascimento"
+read ano
+idade=$((2018-$ano))
+meses=$(($idade*12))
+dias=$(($idade*365))
+semanas=$(($idade*52))
+echo "Sua idade e: $idade"
+echo "Seus meses sao: $meses"
+echo "Seus dias sao: $dias"
+echo "Suas semanas sao: $semanas"

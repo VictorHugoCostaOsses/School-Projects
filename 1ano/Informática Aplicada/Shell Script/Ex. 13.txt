@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Digite o peso do saco de racao"
+read peso
+peso=$((peso*1000))
+echo "O saco pesa $peso gramas"
+quantidade=$((peso/2))
+resto=$((quantidade/5))
+echo "A quantidade de racao que vai sobrar em cinco dias para 
+cada gato e $resto gramas"

@@ -1,0 +1,38 @@
+
+1)Quando o crossover é utilizado? Por quê?
+R:O cabo crossover é utilizado para dispensar o uso do Hub/Switch, porque ele faz a ligação de micros de forma direta.
+
+2)Quais problemas seriam apresentados caso computador funcionasse com sinal analógico?
+Por quê? Qual foi a solução para este problema?
+R:
+O problema de se utilizar o sinal analógico é que ele sofre interferência eletromagnética, uma  solução cabivel e já utilizada é a de cobrir o cabo coaxial com uma 
+blindagem primária de alumínio e com uma blindagem secundaria com tranças em fios de cobre e estanho. 
+
+3)Qual a diferença entre modo de transmissão half duples e full duplex ?
+R:
+A princípal diferença entre elas é que o tipo de transmissão half duplex apesar de ser bidirecional utiliza para compartilhamento o mesmo canal, ou seja, não
+tem como transmitir e receber dados simultaneamente, que é o que ocorre na full duplex.
+
+4)Monte um quadro comparativo entre os cabos de par trançado e co-xial.
+
+
+4-		PAR TRANÇADO			CO-AXIAL
+	Frequencia menor		Frequencia maior
+	Formado por dois condutores	Tem o co-axial grosso e oco-axial fino
+	possui diafonia(interferencia)	Possui muitos problemas de colisão
+
+5)Como o par trançado faz para anular a interferência eletromagnética ?
+R:
+Os cabos de par trançado utilizam uma blindagem de aluminio em uma parte do cabo ou no todo. Com excessão do cabo UTP que não possui blindagem.
+
+
+6)Porque apesar da fibra ótica não utiliar o mesmo tipo de sinal que o par trançado , o sinal enfraquece ? Se isso ocorrer o que dever se feito ?
+A fibra ótica pode ter perda de sinal quando utilizada para grande distâncias.
+R:
+
+
+7)Comente em que situações você utilizaria par tranado e em quais situações usaria fibra ótica.
+R.:
+
+8)Pesquise cinco fibras óticas, destaque as diferêncas entra elas e informe o valor do metro de cada uma delas.
+R:

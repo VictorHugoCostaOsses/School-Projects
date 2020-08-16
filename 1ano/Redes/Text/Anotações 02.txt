@@ -1,0 +1,28 @@
+cabo utp - PIOR , pois não tem bliangedem contra interferênica eletromagnética (eletromagnética - gera ruido (danifica a informação)) - É o mais comun, taxa de transmissão entre os 4 é a pior, mais popular e barato
+
+Cabo FTP - tem uma blindagem de alúminio (geralmente)
+(tem os mesmos quatro pares do outro)
+
+Cabo STP - Blindagem em cada parzinho , par trançado (protege contra diafonia(interfência)) quanto menos interferência maior o alcance
+
+SFTP ou SSTP - Proteção no todo (em cada parzinho e em volta dele (junta os outros dois basicamente)) MELHOR - TOP
+
+CONECTORES: FÊMEA É MLHR (DA PRA REAPROVEITAR) O MACHO NÃO 
+
+CRIMPAGEM (SE USAR UM PADRÃO AS DUAS PONTAS DEVEM SER IGUAIS )
+
+croosover: Lados diferentes uahsuhau 
+
+Hub é ruim, pq ele divide as velocidade pelo numero de portas e envia a informação para todas as maquinas menos para ele que enviou 
+
+Switch mantém a mesma velocidade para cada porta
+e só manda pra quem interessa
+
+roteador : É capaz de escolher o melhor caminho ou o que possui menos trafego , n tem em nehum outro equipamento de Segmentação(Equipamentos de expansão só propaga).
+
+
+
+
+
+
+

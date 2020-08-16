@@ -1,0 +1,25 @@
+área de tela
+
+(4) Digite um número inteiro
+(5) 8
+(7) O quadrado do número inteiro é 64
+
+área de memoria
+
+(2) NI             8  (5)
+(2) quadrado       64 (6)
+------------------------------
+
+área de tela 
+
+(4)     Digite suas notas
+(5)     10
+(5)     9
+(5)     8                             T
+(7)     Sua média é 9
+
+área de memoria
+(2) nota1          10 (5)
+(2) nota2          9 (5)
+(2) nota3          8 (5) 
+(2) m              9 (6)

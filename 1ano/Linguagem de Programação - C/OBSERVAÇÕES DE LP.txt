@@ -1,0 +1,1 @@
+- Quando se usa MOD a variavel deve ser do tipo INTEGER, senão o programa da erro;

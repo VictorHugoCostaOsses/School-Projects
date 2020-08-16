@@ -1,0 +1,12 @@
+cabo utp - PIOR , pois não tem bliangedem contra interferênica eletromagnética (eletromagnética - gera ruido (danifica a informação)) - É o mais comun, taxa de transmissão entre os 4 é a pior
+
+Cabo FTP - tem uma blindagem de alúminio
+(tem os mesmos quatro pares do outro)
+
+Cabo STP - Blindagem em cada parzinho (protege contra diafonia)
+
+SFTP - Proteção no todo (em cada parzinho e em volta dele (junta os outros dois basicamente)) MELHOR - TOP
+
+CONECTORES: FÊMEA É MLHR (DA PRA REAPROVEITAR) O MACHO NÃO 
+
+CRIMPAGEM (SE USAR UM PADRÃO AS DUAS PONTAS DEVEM SER IGUAIS )

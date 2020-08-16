@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Digite a quantidade de camisas pequenas adquiridas"
+read p
+echo "Digite a quantidade de camisas medias adquiridas"
+read m
+echo "Digite a quantidade de camisas grandes adquiridas"
+read g
+total=$((p*10+m*12+g*15))
+echo "O valor arrecadado e $total"
+sleep 60

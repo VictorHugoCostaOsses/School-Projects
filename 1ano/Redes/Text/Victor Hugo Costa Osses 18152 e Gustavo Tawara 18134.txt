@@ -1,0 +1,28 @@
+1. O que são redes de computadores ?
+R: Uma rede de computadores é um conjunto de dispositivos interligados entresi que trocam informações e recursos entre eles
+
+2. Comente duas diferenças entre o sistema multiusuário (mainframe) e o sistema de rede.
+ R: No sistema multiusuário (mainframe) o processamento é centralizado, assim como o armazenamento e demais funcionalidades do sistema computacional, já no sistema de
+ rede o processamento e armazenamento é feito na própria maquina; Outra diferença é que a memoria no sistema de multiusuário é centralizada enquanto no sistema de rede 
+ ela é distribuida.
+
+3. Qual é a maior vantagem dos sistemas heterogêneos?
+ R: A maior vantagem é que não importa o ambiente operacional local, pode-se ter acesso a qualquer recurso, de qualquer ambiente; e o sistema operacional em geral não
+ tem importância.
+
+4. Explique o que são os sistemas em GRID e sistemas em CLUSTER.
+ R: O sistema de Cluster é um conjunto de computadores interligados que provêm algum tipo de serviço. E o Grid é um conjunto de Clusters.
+
+5. O desempenho de uma rede de computadores é avaliado por duas métricas que dizemos ser contraditórias. Por que?
+ R: Porque quanto maior a segurança menor o desempenho, e vice-versa.
+
+6. Do que depende uma boa comunicação de dados?
+ R:Depende de quatro caracterísitcas fundamentais: Entrega, Precisão, Sincronização e Jitter.
+
+7. Como o tipo de conexão interfere na comunicação dos equipamentos interligados em rede?
+ R:Dependendo do tipo de conexão usada pode-se ter uma maneira diferente de como os dados irão se locomover entre os dispositivos.
+
+8. Indique a pior topologia física existente. Justifique.
+ R:A pior topologia física existente é a barramento, pois se nela uma maquina por algum motivo parar de funcionar a informação não chegará as as demais maquinas
+ que a precedem, nela também só pode ter uma informação circulando por vez se não pode ocorrer colisões, sem falar que possui baixo desempenho.
+ 

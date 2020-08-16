@@ -1,0 +1,8 @@
+#!/bin/bash
+	echo Foram digitados $# parametros. Sao eles: $*.
+	echo O nome do scrpit e $0 e seus parametros sao
+ 	 c=0
+ 	  for param in $*; do
+	echo parametro numero $c: $1 ; shift
+	   (( c++ ))
+	    done

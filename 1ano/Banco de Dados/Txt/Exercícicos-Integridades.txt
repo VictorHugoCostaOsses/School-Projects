@@ -1,0 +1,57 @@
+pg 24.
+Exercícicos
+
+1.
+
+a)Uma integridade de Domínio:
+
+R: A entidade estoque não pode aceitar valores negativos.
+Não haver data de nascimento atual registrada
+
+b)Uma integridade de entidade:
+R: O cadastro do cliente não pode se repetir
+Não cadastrar vacina já cadastrada
+Não cadastrar mesma vacina para mesmo paciente no mesmo dia 
+
+c)Uma integridade referencial:
+
+R: Quando o paciente toma a primeira dose da vacina,
+   o BD deve atualizar essa informação e agendar para 
+   esse paciente uma dose de reforço.
+
+   Não registrar reforço de determinada vacina 
+   para um paciente se não há registro da 1a dose 
+   determinada vacina para um paciente.
+
+   Não cadastrar vacina aplicada para paciente não
+   cadastrada ou vacina não cadastrada 
+
+pg 25.
+
+2) A. Uma integridade de domínio:
+
+- Não se pode agendar uma palestra no mesmo ano em dias 
+  anterioeres aos atuais.
+- Não se pode ter mais de uma palestra em uma mesmo local
+  em uma mesma hora.
+- Não se pode ter um número negativo de palestrantes ou 
+  de alunos ou patrocinadores.
+- Não se pode ter tempo de duração ou patrocínio 
+  negativo 
+
+B. Uma integridade de entidade:
+ 
+- Não se pode cadastrar um aluno ou palestrante mais de 
+  uma vez em uma mesma palestra.
+- Nas entidades aluno e palestrante não se pode repitir 
+  o CPF
+- Não permitir cadastrar 2 palestras na mesma data e hora
+
+
+
+C. Uma integridade referencial:
+- Não permitir cadastrar palestra para palestrante não cadastrado
+
+Entidade fraca: Depende da entidade forte para existir(não depende de nimguem a E.F)
+
+	 
